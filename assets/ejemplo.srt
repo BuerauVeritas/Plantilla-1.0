@@ -1,0 +1,22 @@
+﻿1
+00:00:00,120 --> 00:00:01,960
+Bienvenue dans cette île Herning.
+
+2
+00:00:01,960 --> 00:00:04,200
+Vous allez apprendre
+les règles de sécurité
+
+3
+00:00:04,200 --> 00:00:06,800
+liées à l'intervention
+sur un escalier mécanique.
+
+4
+00:00:08,000 --> 00:00:09,520
+À la fin de ce module,
+
+5
+00:00:09,520 --> 00:00:13,040
+vous aurez la possibilité d'être évalué
+par l'intermédiaire d'un test.

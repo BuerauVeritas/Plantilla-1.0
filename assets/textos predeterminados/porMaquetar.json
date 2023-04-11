@@ -1,0 +1,2567 @@
+
+
+	if (idioma :: "EN") {
+		nombreUnidad : nombreUnidadEN,
+		indice : indiceEN,
+		nombrePdf : nombrePdfEN,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Summary",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Check",
+		btnSolucion : "Solution",
+		btnReiniciar : "Restart",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Click here",
+		zoom : "Click to enlarge",
+		recursosayuda : "Click on the marked areas for further information.",
+		imagenesdinamicasayuda : "Click on the image to listen to the audio.",
+		tabladinamica1ayuda : "Click on a row and a column to display the information."
+		tabladinamica2ayuda : "Click on each row to display the information."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Click on the audio for more details.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Audio",
+		tooltipayuda : "Help",
+		tooltipglosario : "Glossary",
+		tooltipdocumentacion : "Documentation",
+		tooltipreducirtexto : "Shrink text",
+		tooltipaumentartexto : "Enlarge text",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Feedback",
+		pinchaTodas : "Please answer all the questions.",
+		mensajeSelect : "Select an option.",
+		mensajeEjercicio : "Complete the self-assessment to continue",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Well done! All your answers are correct.",
+		feedbackFallo : "Sorry, but some of your answers are incorrect.",
+		feedbackFalloTodas : "Sorry, but all of your answers are incorrect.",
+		respuestaCorrecta : "The correct answer is",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Well done! All your answers are correct.",
+		feedbackFalloSelect : "Sorry, but some of your answers are incorrect.",
+		feedbackFalloTodasSelect : "Sorry, but all of your answers are incorrect.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Well done! All your answers are correct.",
+		feedbackFalloTrueFalse : "Sorry, but some of your answers are incorrect.",
+		feedbackFalloTodasTrueFalse : "Sorry, but all of your answers are incorrect.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Well done! All your answers are correct.",
+		feedbackFalloUnir : "Sorry, but some of your answers are incorrect.",
+		feedbackFalloTodasUnir : "Sorry, but all of your answers are incorrect.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Well done! All your answers are correct.",
+		feedbackFalloOrdenar : "Sorry, but some of your answers are incorrect.",
+		feedbackFalloTodasOrdenar : "Sorry, but all of your answers are incorrect.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Well done! Your answer is correct.",
+		feedbackFalloSingleChoice : "Sorry, but your answer is incorrect.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Well done! All your answers are correct.",
+		feedbackFalloMultipleChoice : "Sorry, but some of your answers are incorrect.",
+		feedbackFalloTodasMultipleChoice : "Sorry, but all of your answers are incorrect.",
+		feedbackNoSuficientesMultipleChoice : "Sorry, but the number of selected options is less than the number of correct options, please select more options.",
+		feedbackDemasiadasMultipleChoice : "Sorry, but the number of selected options is greater than the number of correct options, please deselect some options.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Well done! All your answers are correct.",
+		feedbackAciertoHotspotUna : "Well done! Your answer is correct.",
+		feedbackFalloHotspot : "Sorry, but some of your answers are incorrect.",
+		feedbackFalloTodasHotspot : "Sorry, but all of your answers are incorrect.",
+		feedbackFalloTodasHotspotUna : "Sorry, but your answer is incorrect.",
+		feedbackNoSuficientesHotspot : "The number of selected answers is insufficient, please selected some more.",
+		feedbackDemasiadasHotspot : "You have selected too many answers, please deselect some.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Click on the answers for more information.",
+		feedbackCaracteres : "Enter only valid characters.",
+		feedbackLongitudTexto : "The character limit is ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Select language",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Watch the video all the way through.",
+		unSitioMas : "Click on one more location to continue.",
+		unSitioMasMovil : "You can click on more location.",
+		masSitiosA : "Click on the ",
+		masSitiosB : " locations that are missing to be able to continue.",
+		masSitiosMovilA : "You can click on ",
+		masSitiosMovilB : " more locations.",
+		finalPagina : "You must go to the bottom of this page to be able to continue.",
+		finalPaginaMovil : "You must go to the bottom of the page.",
+		visualizaVideo : "Watch the following video.",
+		videoRecursosRestr : " (You must watch it to the end to unlock the page).",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Start",
+		btnComprobar : "Check",
+		btnAvanzar : "Continue",
+		cuestFinalizado : "You have already completed this questionnaire.",
+		cuestAprobado : "You have passed the questionnaire.",
+		cuestSuspenso : "You have failed the questionnaire.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/EN/help/help.html"),
+		$("#docs").load("../assets/tools/EN/docs/docs.html"),
+		$("#glossary").load("../assets/tools/EN/glossary/glossary.html"),
+	}
+
+	if (idioma :: "FR") {
+		nombreUnidad : nombreUnidadFR,
+		indice : indiceFR,
+		nombrePdf : nombrePdfFR,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Sommaire",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Corriger",
+		btnSolucion : "Solution",
+		btnReiniciar : "Recommencer",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Cliquer ici",
+		zoom : "Cliquer pour agrandir",
+		recursosayuda : "Cliquer sur les zones marquées pour obtenir plus d"informations.",
+		imagenesdinamicasayuda : "Cliquer sur l’image pour écouter le son.",
+		tabladinamica1ayuda : "Cliquer sur une ligne et une colonne pour afficher les informations."
+		tabladinamica2ayuda : "Cliquer sur chaque ligne pour afficher les informations."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Cliquez sur la fonction son pour plus de détails.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Son",
+		tooltipayuda : "Aide",
+		tooltipglosario : "Glossaire",
+		tooltipdocumentacion : "Documentation",
+		tooltipreducirtexto : "Diminuer le texte",
+		tooltipaumentartexto : "Agrandir le texte",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Commentaires",
+		pinchaTodas : "Veuillez répondre à toutes les questions.",
+		mensajeSelect : "Choisir une option.",
+		mensajeEjercicio : "Compléter l’auto-évaluation pour poursuivre.",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Bravo ! Toutes vos réponses sont correctes.",
+		feedbackFallo : "Désolé, certaines de vos réponses sont incorrectes.",
+		feedbackFalloTodas : "Désolé, toutes vos réponses sont incorrectes.",
+		respuestaCorrecta : "La réponse correcte est",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Bravo ! Toutes vos réponses sont correctes.",
+		feedbackFalloSelect : "Désolé, certaines de vos réponses sont incorrectes.",
+		feedbackFalloTodasSelect : "Désolé, toutes vos réponses sont incorrectes.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Bravo ! Toutes vos réponses sont correctes.",
+		feedbackFalloTrueFalse : "Désolé, certaines de vos réponses sont incorrectes.",
+		feedbackFalloTodasTrueFalse : "Désolé, toutes vos réponses sont incorrectes.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Bravo ! Toutes vos réponses sont correctes.",
+		feedbackFalloUnir : "Désolé, certaines de vos réponses sont incorrectes.",
+		feedbackFalloTodasUnir : "Désolé, toutes vos réponses sont incorrectes.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Bravo ! Toutes vos réponses sont correctes.",
+		feedbackFalloOrdenar : "Désolé, certaines de vos réponses sont incorrectes.",
+		feedbackFalloTodasOrdenar : "Désolé, toutes vos réponses sont incorrectes.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Bravo ! Votre réponse est correcte.",
+		feedbackFalloSingleChoice : "Désolé, votre réponse est incorrecte.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Bravo ! Toutes vos réponses sont correctes.",
+		feedbackFalloMultipleChoice : "Désolé, certaines de vos réponses sont incorrectes.",
+		feedbackFalloTodasMultipleChoice : "Désolé, toutes vos réponses sont incorrectes.",
+		feedbackNoSuficientesMultipleChoice : "Désolé mais le nombre d’options choisies est inférieur au nombre correct d’options, veuillez choisir plus d’options.",
+		feedbackDemasiadasMultipleChoice : "Désolé mais le nombre d’options choisies est supérieur au nombre correct d’options, veuillez supprimer certaines options.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Bravo ! Toutes vos réponses sont correctes.",
+		feedbackAciertoHotspotUna : "Bravo ! Votre réponse est correcte.",
+		feedbackFalloHotspot : "Désolé, certaines de vos réponses sont incorrectes.",
+		feedbackFalloTodasHotspot : "Désolé, toutes vos réponses sont incorrectes.",
+		feedbackFalloTodasHotspotUna : "Désolé, votre réponse est incorrecte.",
+		feedbackNoSuficientesHotspot : "Le nombre de réponses choisies est insuffisant, veuillez en sélectionner davantage.",
+		feedbackDemasiadasHotspot : "Vous avez sélectionné trop de réponses, veuillez en supprimer certaines.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Cliquez sur les réponses pour plus d"informations.",
+		feedbackCaracteres : "Entrez uniquement les caractères valides.",
+		feedbackLongitudTexto : "La limite de caractères est ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Choisir la langue",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Regarder la vidéo jusqu’au bout.",
+		unSitioMas : "Cliquer sur un emplacement supplémentaire pour poursuive.",
+		unSitioMasMovil : "Vous pouvez cliquer sur plus d’emplacements.",
+		masSitiosA : "Cliquer sur les ",
+		masSitiosB : " emplacements manquants pour pouvoir poursuivre.",
+		masSitiosMovilA : "Vous pouvez cliquer sur ",
+		masSitiosMovilB : " emplacements supplémentaires.",
+		finalPagina : "Aller en bas de cette page pour poursuivre.",
+		finalPaginaMovil : "Aller en bas de cette page pour poursuivre.",
+		visualizaVideo : "Regardez la vidéo suivante sur l’unité.",
+		videoRecursosRestr : " (Vous devez la regarder jusqu’à la fin pour débloquer la page).",
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Commencer",
+		btnComprobar : "Valider",
+		btnAvanzar : "Poursuivre",
+		cuestFinalizado : "Vous avez déjà complété ce questionnaire.",
+		cuestAprobado : "Vous avez réussi le questionnaire.",
+		cuestSuspenso : "Vous n’avez pas réussi le questionnaire.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/FR/help/help.html"),
+		$("#docs").load("../assets/tools/FR/docs/docs.html"),
+		$("#glossary").load("../assets/tools/FR/glossary/glossary.html"),
+	}
+
+	if (idioma :: "IT") {
+		nombreUnidad : nombreUnidadIT,
+		indice : indiceIT,
+		nombrePdf : nombrePdfIT,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Sommario",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Correggere",
+		btnSolucion : "Soluzione",
+		btnReiniciar : "Riavviare",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Clicca qui",
+		zoom : "Clicca per ingrandire",
+		recursosayuda : "Fai clic sulle aree evidenziate per ampliare la schermata informativa.",
+		imagenesdinamicasayuda : "Fai clic sull’immagine per ascoltare l’audio.",
+		tabladinamica1ayuda : "Fai clic su una fila e una colonna per espandere il testo informativo."
+		tabladinamica2ayuda : "Fai clic su ogni fila per espandere il testo informativo."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Fai clic sull’audio per ulteriori informazioni.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Audio",
+		tooltipayuda : "Aiuto",
+		tooltipglosario : "Glossario",
+		tooltipdocumentacion : "Documentazione",
+		tooltipreducirtexto : "Ridurre testo",
+		tooltipaumentartexto : "Aumentare testo",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Feedback",
+		pinchaTodas : "Per favore, rispondi a tutte le domande.",
+		mensajeSelect : "Seleziona un’opzione.",
+		mensajeEjercicio : "Completa l’autovalutazione per continuare",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Complimenti! Tutte le tue risposte sono esatte.",
+		feedbackFallo : "Purtroppo alcune risposte sono sbagliate.",
+		feedbackFalloTodas : "Purtroppo tutte le tue risposte sono sbagliate.",
+		respuestaCorrecta : "La risposta esatta è",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Complimenti! Tutte le tue risposte sono esatte.",
+		feedbackFalloSelect : "Purtroppo alcune risposte sono sbagliate.",
+		feedbackFalloTodasSelect : "Purtroppo tutte le tue risposte sono sbagliate.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Complimenti! Tutte le tue risposte sono esatte.",
+		feedbackFalloTrueFalse : "Purtroppo alcune risposte sono sbagliate.",
+		feedbackFalloTodasTrueFalse : "Purtroppo tutte le tue risposte sono sbagliate.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Complimenti! Tutte le tue risposte sono esatte.",
+		feedbackFalloUnir : "Purtroppo alcune risposte sono sbagliate.",
+		feedbackFalloTodasUnir : "Purtroppo tutte le tue risposte sono sbagliate.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Complimenti! Tutte le tue risposte sono esatte.",
+		feedbackFalloOrdenar : "Purtroppo alcune risposte sono sbagliate.",
+		feedbackFalloTodasOrdenar : "Purtroppo tutte le tue risposte sono sbagliate.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Complimenti! Risposta esatta.",
+		feedbackFalloSingleChoice : "Purtroppo la risposta è sbagliata.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Complimenti! Tutte le tue risposte sono esatte.",
+		feedbackFalloMultipleChoice : "Purtroppo alcune risposte sono sbagliate.",
+		feedbackFalloTodasMultipleChoice : "Purtroppo tutte le tue risposte sono sbagliate.",
+		feedbackNoSuficientesMultipleChoice : "Purtroppo il numero di opzioni selezionate è inferiore al numero di risposte esatte. Selezionane ancora.",
+		feedbackDemasiadasMultipleChoice : "Purtroppo il numero di risposte selezionate è superiore al numero di risposte esatte. Deselezionane alcune.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Complimenti! Tutte le tue risposte sono esatte.",
+		feedbackAciertoHotspotUna : "Well done! Your answer is correct.", feedbackFalloHotspot : "Purtroppo alcune risposte sono sbagliate.",
+		feedbackFalloTodasHotspot : "Purtroppo tutte le tue risposte sono sbagliate.",
+		feedbackFalloTodasHotspotUna : "Sorry, but your answer is incorrect.",
+		feedbackNoSuficientesHotspot : "Il numero di risposte selezionate non è sufficiente. Selezionane ancora.",
+		feedbackDemasiadasHotspot : "Hai selezionato troppe risposte. Deselezionane alcune.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Click on the answers for more information.",
+		feedbackCaracteres : "Enter only valid characters.",
+		feedbackLongitudTexto : "The character limit is ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Seleziona lingua",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Guarda il video fino alla fine.",
+		unSitioMas : "Fai clic su un ulteriore elemento per continuare.",
+		unSitioMasMovil : "Devi fare clic su un ulteriore elemento.",
+		masSitiosA : "Fai clic sui ",
+		masSitiosB : " elementi che mancano per continuare.",
+		masSitiosMovilA : "Devi fare clic su ",
+		masSitiosMovilB : " ulteriori elementi.",
+		finalPagina : "Devi arrivare alla fine di questa pagina per continuare.",
+		finalPaginaMovil : "Devi arrivare alla fine di questa pagina.",
+		visualizaVideo : "Guarda il seguente video sul modulo.",
+		videoRecursosRestr : " (Devi guardarlo fino alla fine per sbloccare la pagina).",
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Avvia",
+		btnComprobar : "Controlla",
+		btnAvanzar : "Continua",
+		cuestFinalizado : "Hai già compilato questo questionario.",
+		cuestAprobado : "Hai superato il questionario.",
+		cuestSuspenso : "Non hai superato il questionario.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/IT/help/help.html"),
+		$("#docs").load("../assets/tools/IT/docs/docs.html"),
+		$("#glossary").load("../assets/tools/IT/glossary/glossary.html"),
+	}
+
+	if (idioma :: "DE") {
+		nombreUnidad : nombreUnidadDE,
+		indice : indiceDE,
+		nombrePdf : nombrePdfDE,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Zusammenfassung",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Korrigieren",
+		btnSolucion : "Lösung",
+		btnReiniciar : "Neustarten",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Klicken Sie hier",
+		zoom : "Klicken Sie zur Vergrößerung",
+		recursosayuda : "Klicken Sie auf die hervorgehobenen Bereiche, um mehr Informationen zu erhalten.",
+		imagenesdinamicasayuda : "Klicken Sie auf das Bild, um das Audio zu hören.",
+		tabladinamica1ayuda : "Klicken Sie auf eine Zeile einer Spalte, um die Information anzuzeigen."
+		tabladinamica2ayuda : "Klicken Sie auf jede Zeile, um die Information anzuzeigen."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Klicken Sie auf das Audio, um mehr Details zu erhalten.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Audio",
+		tooltipayuda : "Hilfe",
+		tooltipglosario : "Glossar",
+		tooltipdocumentacion : "Dokumentation",
+		tooltipreducirtexto : "Weniger Text",
+		tooltipaumentartexto : "Mehr Text",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Feedback",
+		pinchaTodas : "Antworten Sie bitte auf alle Fragen.",
+		mensajeSelect : "Wählen Sie eine Option.",
+		mensajeEjercicio : "Füllen Sie die Selbstbewertung aus, um fortzufahren",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Herzlichen Glückwunsch! Alle Antworten sind richtig.",
+		feedbackFallo : "Es tut uns leid, aber nicht alle Antworten sind richtig.",
+		feedbackFalloTodas : "Es tut uns leid, aber alle Ihre Antworten sind falsch.",
+		respuestaCorrecta : "Die richtige Antwort ist",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Herzlichen Glückwunsch! Alle Antworten sind richtig.",
+		feedbackFalloSelect : "Es tut uns leid, aber nicht alle Antworten sind richtig.",
+		feedbackFalloTodasSelect : "Es tut uns leid, aber alle Ihre Antworten sind falsch.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Herzlichen Glückwunsch! Alle Antworten sind richtig.",
+		feedbackFalloTrueFalse : "Es tut uns leid, aber nicht alle Antworten sind richtig.",
+		feedbackFalloTodasTrueFalse : "Es tut uns leid, aber alle Ihre Antworten sind falsch.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Herzlichen Glückwunsch! Alle Antworten sind richtig.",
+		feedbackFalloUnir : "Es tut uns leid, aber nicht alle Antworten sind richtig.",
+		feedbackFalloTodasUnir : "Es tut uns leid, aber alle Ihre Antworten sind falsch.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Herzlichen Glückwunsch! Alle Antworten sind richtig.",
+		feedbackFalloOrdenar : "Es tut uns leid, aber nicht alle Antworten sind richtig.",
+		feedbackFalloTodasOrdenar : "Es tut uns leid, aber alle Ihre Antworten sind falsch.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Herzlichen Glückwunsch! Ihre Antwort ist richtig.",
+		feedbackFalloSingleChoice : "Es tut uns leid, aber Ihre Antwort ist falsch.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Herzlichen Glückwunsch! Alle Antworten sind richtig.",
+		feedbackFalloMultipleChoice : "Es tut uns leid, aber nicht alle Antworten sind richtig.",
+		feedbackFalloTodasMultipleChoice : "Es tut uns leid, aber alle Ihre Antworten sind falsch.",
+		feedbackNoSuficientesMultipleChoice : "Es tut uns leid, die Anzahl der ausgewählten Optionen ist geringer als die Anzahl der richtigen Optionen, bitte wählen Sie eine weitere Option aus.",
+		feedbackDemasiadasMultipleChoice : "Es tut uns leid, die Anzahl der ausgewählten Optionen ist größer als die Anzahl der richtigen Optionen, bitte entfernen Sie eine der von Ihnen gewählten Optionen.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Herzlichen Glückwunsch! Alle Antworten sind richtig.",
+		feedbackAciertoHotspotUna : "Well done! Your answer is correct.",
+		feedbackFalloHotspot : "Es tut uns leid, aber nicht alle Antworten sind richtig.",
+		feedbackFalloTodasHotspot : "Es tut uns leid, aber alle Ihre Antworten sind falsch.",
+		feedbackFalloTodasHotspotUna : "Sorry, but your answer is incorrect.",
+		feedbackNoSuficientesHotspot : "Die Anzahl der von Ihnen ausgewählten Antworten reicht nicht aus, wählen Sie weitere aus.",
+		feedbackDemasiadasHotspot : "Sie haben zu viele Antworten gewählt, entfernen Sie eine oder mehrere.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Click on the answers for more information.",
+		feedbackCaracteres : "Enter only valid characters.",
+		feedbackLongitudTexto : "The character limit is ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Sprachen wählen",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Schauen Sie sich das Video bis zum Ende an.",
+		unSitioMas : "Klicken Sie auf eine weitere Stelle, um fortzufahren.",
+		unSitioMasMovil : "Sie müssen auf eine weitere Stelle klicken.",
+		masSitiosA : "Klicken Sie auf ",
+		masSitiosB : " fehlenden Stellen, um fortzufahren.",
+		masSitiosMovilA : "Sie müssen auf ",
+		masSitiosMovilB : " weitere Stellen klicken.",
+		finalPagina : "Sie müssen das Ende dieser Seite erreichen, um fortzufahren.",
+		finalPaginaMovil : "Sie müssen das Ende der Seite erreichen.",
+		visualizaVideo : "Schauen Sie sich das folgende Video zur Einheit an.",
+		videoRecursosRestr : " (Sie müssen es bis zum Ende ansehen, um die Seite freizuschalten).",
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Start",
+		btnComprobar : "Prüfen",
+		btnAvanzar : "Weiter",
+		cuestFinalizado : "Sie haben diesen Fragebogen bereits ausgefüllt.",
+		cuestAprobado : "Sie haben den Fragebogen bestanden.",
+		cuestSuspenso : "Sie haben den Fragebogen nicht bestanden.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/DE/help/help.html"),
+		$("#docs").load("../assets/tools/DE/docs/docs.html"),
+		$("#glossary").load("../assets/tools/DE/glossary/glossary.html"),
+	}
+
+	if (idioma :: "PT") {
+		nombreUnidad : nombreUnidadPT,
+		indice : indicePT,
+		nombrePdf : nombrePdfPT,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Índice",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Corrigir",
+		btnSolucion : "Solução",
+		btnReiniciar : "Reiniciar",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Clique aqui",
+		zoom : "Clique para ampliar",
+		recursosayuda : "Clique nas áreas marcadas para obter mais informações.",
+		imagenesdinamicasayuda : "Clique na imagem para ouvir o áudio.",
+		tabladinamica1ayuda : "Clique em uma linha e uma coluna para exibir as informações."
+		tabladinamica2ayuda : "Clique em cada linha para exibir as informações."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Clique no áudio para obter mais detalhes.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Áudio",
+		tooltipayuda : "Ajuda",
+		tooltipglosario : "Glossário",
+		tooltipdocumentacion : "Documentação",
+		tooltipreducirtexto : "Reduzir texto",
+		tooltipaumentartexto : "Ampliar texto",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Comentários",
+		pinchaTodas : "Por favor, responda a todas as perguntas.",
+		mensajeSelect : "Selecione uma opção.",
+		mensajeEjercicio : "Conclua a autoavaliação para continuar",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Muito bem! Todas as suas respostas estão corretas.",
+		feedbackFallo : "Desculpe, mas algumas de suas respostas estão incorretas.",
+		feedbackFalloTodas : "Desculpe, mas todas as suas respostas estão incorretas.",
+		respuestaCorrecta : "A resposta correta é",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Muito bem! Todas as suas respostas estão corretas.",
+		feedbackFalloSelect : "Desculpe, mas algumas de suas respostas estão incorretas.",
+		feedbackFalloTodasSelect : "Desculpe, mas todas as suas respostas estão incorretas.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Muito bem! Todas as suas respostas estão corretas.",
+		feedbackFalloTrueFalse : "Desculpe, mas algumas de suas respostas estão incorretas.",
+		feedbackFalloTodasTrueFalse : "Desculpe, mas todas as suas respostas estão incorretas.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Muito bem! Todas as suas respostas estão corretas.",
+		feedbackFalloUnir : "Desculpe, mas algumas de suas respostas estão incorretas.",
+		feedbackFalloTodasUnir : "Desculpe, mas todas as suas respostas estão incorretas.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Muito bem! Todas as suas respostas estão corretas.",
+		feedbackFalloOrdenar : "Desculpe, mas algumas de suas respostas estão incorretas.",
+		feedbackFalloTodasOrdenar : "Desculpe, mas todas as suas respostas estão incorretas.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Muito bem! Sua resposta está correta.",
+		feedbackFalloSingleChoice : "Desculpe, mas sua resposta está incorreta.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Muito bem! Todas as suas respostas estão corretas.",
+		feedbackFalloMultipleChoice : "Desculpe, mas algumas de suas respostas estão incorretas.",
+		feedbackFalloTodasMultipleChoice : "Desculpe, mas todas as suas respostas estão incorretas.",
+		feedbackNoSuficientesMultipleChoice : "Desculpe, mas o número de opções selecionadas é menor que o número de opções corretas, selecione mais opções.",
+		feedbackDemasiadasMultipleChoice : "Desculpe, mas o número de opções selecionadas é maior que o número de opções corretas, desmarque algumas opções.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Muito bem! Todas as suas respostas estão corretas.",
+		feedbackAciertoHotspotUna : "Well done! Your answer is correct.", feedbackFalloHotspot : "Desculpe, mas algumas de suas respostas estão incorretas.",
+		feedbackFalloTodasHotspot : "Desculpe, mas todas as suas respostas estão incorretas.",
+		feedbackFalloTodasHotspotUna : "Sorry, but your answer is incorrect.",
+		feedbackNoSuficientesHotspot : "O número de respostas selecionadas é insuficiente, selecione mais algumas.",
+		feedbackDemasiadasHotspot : "Você selecionou muitas respostas, desmarque algumas.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Click on the answers for more information.",
+		feedbackCaracteres : "Enter only valid characters.",
+		feedbackLongitudTexto : "The character limit is ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Selecione o idioma",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Assista ao vídeo até o fim.",
+		unSitioMas : "Clique em mais um local para continuar.",
+		unSitioMasMovil : "Você pode clicar em mais local.",
+		masSitiosA : "Clique nos ",
+		masSitiosB : " locais que estão faltando para poder continuar.",
+		masSitiosMovilA : "Você pode clicar em mais ",
+		masSitiosMovilB : " locais.",
+		finalPagina : "Você deve ir para o final desta página para poder continuar.",
+		finalPaginaMovil : "Você deve ir para o final da página.",
+		visualizaVideo : "Watch the following video about the unit.",
+		videoRecursosRestr : " (You must watch it to the end to unlock the page).",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Iniciar",
+		btnComprobar : "Verificar",
+		btnAvanzar : "Continuar",
+		cuestFinalizado : "Você já completou este questionário.",
+		cuestAprobado : "Você passou no questionário.",
+		cuestSuspenso : "Você reprovou no questionário.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/EN/help/help.html"),
+		$("#docs").load("../assets/tools/EN/docs/docs.html"),
+		$("#glossary").load("../assets/tools/EN/glossary/glossary.html"),
+	}
+
+	if (idioma :: "ID") {
+		nombreUnidad : nombreUnidadID,
+		indice : indiceID,
+		nombrePdf : nombrePdfID,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Indeks",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Benar",
+		btnSolucion : "Solusi",
+		btnReiniciar : "Mulai ulang",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Klik di sini",
+		zoom : "Klik untuk memperbesar tampilan",
+		recursosayuda : "Klik di area yang ditandai untuk informasi lebih lanjut.",
+		imagenesdinamicasayuda : "Klik gambar untuk mendengarkan audio.",
+		tabladinamica1ayuda : "Klik baris dan kolom untuk menampilkan informasi."
+		tabladinamica2ayuda : "Klik masing-masing baris untuk menampilkan informasi."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Klik audio untuk informasi lebih rinci.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Audio",
+		tooltipayuda : "Bantuan",
+		tooltipglosario : "Daftar istilah",
+		tooltipdocumentacion : "Dokumentasi",
+		tooltipreducirtexto : "Perkecil teks",
+		tooltipaumentartexto : "Perbesar teks",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Tanggapan",
+		pinchaTodas : "Jawab semua pertanyaan.",
+		mensajeSelect : "Tentukan salah satu pilihan.",
+		mensajeEjercicio : "Selesaikan penilaian diri untuk melanjutkan",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Bagus! Semua jawaban Anda benar.",
+		feedbackFallo : "Maaf, namun beberapa jawaban Anda salah.",
+		feedbackFalloTodas : "Maaf, namun semua jawaban Anda salah.",
+		respuestaCorrecta : "Jawaban yang benar adalah",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Bagus! Semua jawaban Anda benar.",
+		feedbackFalloSelect : "Maaf, namun beberapa jawaban Anda salah.",
+		feedbackFalloTodasSelect : "Maaf, namun semua jawaban Anda salah.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Bagus! Semua jawaban Anda benar.",
+		feedbackFalloTrueFalse : "Maaf, namun beberapa jawaban Anda salah.",
+		feedbackFalloTodasTrueFalse : "Maaf, namun semua jawaban Anda salah.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Bagus! Semua jawaban Anda benar.",
+		feedbackFalloUnir : "Maaf, namun beberapa jawaban Anda salah.",
+		feedbackFalloTodasUnir : "Maaf, namun semua jawaban Anda salah.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Bagus! Semua jawaban Anda benar.",
+		feedbackFalloOrdenar : "Maaf, namun beberapa jawaban Anda salah.",
+		feedbackFalloTodasOrdenar : "Maaf, namun semua jawaban Anda salah.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Bagus! Jawaban Anda benar.",
+		feedbackFalloSingleChoice : "Maaf, namun jawaban Anda salah.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Bagus! Semua jawaban Anda benar.",
+		feedbackFalloMultipleChoice : "Maaf, namun beberapa jawaban Anda salah.",
+		feedbackFalloTodasMultipleChoice : "Maaf, namun semua jawaban Anda salah.",
+		feedbackNoSuficientesMultipleChoice : "Maaf, namun jumlah pilihan yang dipilih kurang dibandingkan jumlah pilihan yang benar, tentukan pilihan lainnya.",
+		feedbackDemasiadasMultipleChoice : "Maaf, namun jumlah pilihan yang dipilih melebihi jumlah pilihan yang benar, batalkan beberapa pilihan.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Bagus! Semua jawaban Anda benar.",
+		feedbackAciertoHotspotUna : "Well done! Your answer is correct.", feedbackFalloHotspot : "Maaf, namun beberapa jawaban Anda salah.",
+		feedbackFalloTodasHotspot : "Maaf, namun semua jawaban Anda salah.",
+		feedbackFalloTodasHotspotUna : "Sorry, but your answer is incorrect.",
+		feedbackNoSuficientesHotspot : "Jumlah jawaban yang dipilih kurang, tentukan beberapa pilihan lainnya..",
+		feedbackDemasiadasHotspot : "Anda telah memilih terlalu banyak jawaban, batalkan beberapa jawaban.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Click on the answers for more information.",
+		feedbackCaracteres : "Enter only valid characters.",
+		feedbackLongitudTexto : "The character limit is ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Pilih bahasa",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Tonton video hingga selesai.",
+		unSitioMas : "Klik satu lokasi lagi untuk melanjutkan.",
+		unSitioMasMovil : "Anda dapat mengklik lebih banyak lokasi.",
+		masSitiosA : "Klik ",
+		masSitiosB : " lokasi yang hilang agar dapat melanjutkan.",
+		masSitiosMovilA : "Anda dapat mengklik ",
+		masSitiosMovilB : " lokasi lagi.",
+		finalPagina : "Anda harus menggulir ke bagian bawah halaman ini agar dapat melanjutkan.",
+		finalPaginaMovil : "Anda harus menggulir ke bagian bawah halaman.",
+		visualizaVideo : "Watch the following video about the unit.",
+		videoRecursosRestr : " (You must watch it to the end to unlock the page).",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Mulai",
+		btnComprobar : "Periksa",
+		btnAvanzar : "Lanjutkan",
+		cuestFinalizado : "Anda telah menyelesaikan daftar pertanyaan.",
+		cuestAprobado : "Anda lulus dalam daftar pertanyaan.",
+		cuestSuspenso : "Anda gagal dalam daftar pertanyaan.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/EN/help/help.html"),
+		$("#docs").load("../assets/tools/EN/docs/docs.html"),
+		$("#glossary").load("../assets/tools/EN/glossary/glossary.html"),
+	}
+
+	if (idioma :: "VI") {
+		nombreUnidad : nombreUnidadVI,
+		indice : indiceVI,
+		nombrePdf : nombrePdfVI,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Mục lục",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Đúng",
+		btnSolucion : "Dung dịch",
+		btnReiniciar : "Bắt đầu lại",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Nhấp vào đây",
+		zoom : "Nhấp để phóng to",
+		recursosayuda : "Nhấp vào các khu vực được đánh dấu để biết thêm thông tin.",
+		imagenesdinamicasayuda : "Nhấp vào hình ảnh để nghe âm thanh.",
+		tabladinamica1ayuda : "Bấm vào một hàng và một cột để hiển thị thông tin."
+		tabladinamica2ayuda : "Nhấp vào từng hàng để hiển thị thông tin."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Nhấp vào âm thanh để biết thêm thông tin chi tiết.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Âm thanh",
+		tooltipayuda : "Trợ giúp",
+		tooltipglosario : "Thuật ngữ",
+		tooltipdocumentacion : "Tài liệu",
+		tooltipreducirtexto : "Thu nhỏ văn bản",
+		tooltipaumentartexto : "Phóng to văn bản",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Phản hồi",
+		pinchaTodas : "Vui lòng trả lời tất cả các câu hỏi.",
+		mensajeSelect : "Chọn một tùy chọn.",
+		mensajeEjercicio : "Hoàn thành việc tự đánh giá để tiếp tục",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Bạn làm tốt lắm! Tất cả các câu trả lời của bạn đều chính xác.",
+		feedbackFallo : "Rất tiếc, nhưng một số câu trả lời của bạn không chính xác.",
+		feedbackFalloTodas : "Rất tiếc, nhưng tất cả câu trả lời của bạn không chính xác.",
+		respuestaCorrecta : "Câu trả lời đúng là",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Bạn làm tốt lắm! Tất cả các câu trả lời của bạn đều chính xác.",
+		feedbackFalloSelect : "Rất tiếc, nhưng một số câu trả lời của bạn không chính xác.",
+		feedbackFalloTodasSelect : "Rất tiếc, nhưng tất cả câu trả lời của bạn không chính xác.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Bạn làm tốt lắm! Tất cả các câu trả lời của bạn đều chính xác.",
+		feedbackFalloTrueFalse : "Rất tiếc, nhưng một số câu trả lời của bạn không chính xác.",
+		feedbackFalloTodasTrueFalse : "Rất tiếc, nhưng tất cả câu trả lời của bạn không chính xác.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Bạn làm tốt lắm! Tất cả các câu trả lời của bạn đều chính xác.",
+		feedbackFalloUnir : "Rất tiếc, nhưng một số câu trả lời của bạn không chính xác.",
+		feedbackFalloTodasUnir : "Rất tiếc, nhưng tất cả câu trả lời của bạn không chính xác.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Bạn làm tốt lắm! Tất cả các câu trả lời của bạn đều chính xác.",
+		feedbackFalloOrdenar : "Rất tiếc, nhưng một số câu trả lời của bạn không chính xác.",
+		feedbackFalloTodasOrdenar : "Rất tiếc, nhưng tất cả câu trả lời của bạn không chính xác.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Bạn làm tốt lắm! Câu trả lời của bạn chính xác.",
+		feedbackFalloSingleChoice : "Rất tiếc, nhưng câu trả lời của bạn không chính xác.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Bạn làm tốt lắm! Tất cả các câu trả lời của bạn đều chính xác.",
+		feedbackFalloMultipleChoice : "Rất tiếc, nhưng một số câu trả lời của bạn không chính xác.",
+		feedbackFalloTodasMultipleChoice : "Rất tiếc, nhưng tất cả câu trả lời của bạn không chính xác.",
+		feedbackNoSuficientesMultipleChoice : "Rất tiếc, nhưng số phương án đã chọn ít hơn số phương án chính xác, vui lòng chọn thêm phương án.",
+		feedbackDemasiadasMultipleChoice : "Rất tiếc, nhưng số phương án đã chọn nhiều hơn số phương án chính xác, vui lòng bỏ chọn một số phương án.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Bạn làm tốt lắm! Tất cả các câu trả lời của bạn đều chính xác.",
+		feedbackAciertoHotspotUna : "Well done! Your answer is correct.", feedbackFalloHotspot : "Rất tiếc, nhưng một số câu trả lời của bạn không chính xác.",
+		feedbackFalloTodasHotspot : "Rất tiếc, nhưng tất cả câu trả lời của bạn không chính xác.",
+		feedbackFalloTodasHotspotUna : "Sorry, but your answer is incorrect.",
+		feedbackNoSuficientesHotspot : "Số lượng câu trả lời đã chọn không đủ, vui lòng chọn thêm một số câu trả lời.",
+		feedbackDemasiadasHotspot : "Bạn đã chọn quá nhiều câu trả lời, vui lòng bỏ chọn một số câu trả lời.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Click on the answers for more information.",
+		feedbackCaracteres : "Enter only valid characters.",
+		feedbackLongitudTexto : "The character limit is ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Chọn ngôn ngữ",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Xem hết video.",
+		unSitioMas : "Nhấp vào một vị trí nữa để tiếp tục.",
+		unSitioMasMovil : "Bạn có thể nhấp vào nhiều vị trí.",
+		masSitiosA : "Nhấp vào ",
+		masSitiosB : " vị trí bị thiếu để có thể tiếp tục.",
+		masSitiosMovilA : "Bạn có thể nhấp vào ",
+		masSitiosMovilB : " vị trí nữa.",
+		finalPagina : "Bạn phải đi đến cuối trang này để có thể tiếp tục.",
+		finalPaginaMovil : "Bạn phải đi đến cuối trang.",
+		visualizaVideo : "Watch the following video about the unit.",
+		videoRecursosRestr : " (You must watch it to the end to unlock the page).",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Bắt đầu",
+		btnComprobar : "Kiểm tra",
+		btnAvanzar : "Tiếp tục",
+		cuestFinalizado : "Bạn đã hoàn thành bảng câu hỏi này.",
+		cuestAprobado : "Bạn đã hoàn thành bảng câu hỏi.",
+		cuestSuspenso : "Bạn đã không hoàn thành bảng câu hỏi.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/EN/help/help.html"),
+		$("#docs").load("../assets/tools/EN/docs/docs.html"),
+		$("#glossary").load("../assets/tools/EN/glossary/glossary.html"),
+	}
+
+	if (idioma :: "ZH") {
+		nombreUnidad : nombreUnidadZH,
+		indice : indiceZH,
+		nombrePdf : nombrePdfZH,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "目录表",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "正确",
+		btnSolucion : "正解",
+		btnReiniciar : "重新开始",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "点击此处",
+		zoom : "点击放大",
+		recursosayuda : "点击标记区域获取更多信息。",
+		imagenesdinamicasayuda : "点击图片以收听音频。",
+		tabladinamica1ayuda : "点击行或列以展示信息。"
+		tabladinamica2ayuda : "点击各行以展示信息。"
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "点击音频了解详细信息。",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "音频",
+		tooltipayuda : "帮助",
+		tooltipglosario : "术语",
+		tooltipdocumentacion : "文件",
+		tooltipreducirtexto : "缩放文本",
+		tooltipaumentartexto : "放大文本",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "反馈",
+		pinchaTodas : "请回答所有问题。",
+		mensajeSelect : "选择一个选项。",
+		mensajeEjercicio : "完成自我评测以继续",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "干得好！你的回答全部正确。",
+		feedbackFallo : "抱歉，但你的部分回答错误。",
+		feedbackFalloTodas : "抱歉，但你的全部回答错误。",
+		respuestaCorrecta : "正确答案是",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "干得好！你的回答全部正确。",
+		feedbackFalloSelect : "抱歉，但你的部分回答错误。",
+		feedbackFalloTodasSelect : "抱歉，但你的全部回答错误。",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "干得好！你的回答全部正确。",
+		feedbackFalloTrueFalse : "抱歉，但你的部分回答错误。",
+		feedbackFalloTodasTrueFalse : "抱歉，但你的全部回答错误。",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "干得好！你的回答全部正确。",
+		feedbackFalloUnir : "抱歉，但你的部分回答错误。",
+		feedbackFalloTodasUnir : "抱歉，但你的全部回答错误。",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "干得好！你的回答全部正确。",
+		feedbackFalloOrdenar : "抱歉，但你的部分回答错误。",
+		feedbackFalloTodasOrdenar : "抱歉，但你的全部回答错误。",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "干得好！你的回答正确。",
+		feedbackFalloSingleChoice : "抱歉，但你的回答错误。",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "干得好！你的回答全部正确。",
+		feedbackFalloMultipleChoice : "抱歉，但你的部分回答错误。",
+		feedbackFalloTodasMultipleChoice : "抱歉，但你的全部回答错误。",
+		feedbackNoSuficientesMultipleChoice : "抱歉，但你选择的选项数量少于正确选项数量，请选择更多选项。",
+		feedbackDemasiadasMultipleChoice : "抱歉，但你选择的选项数量大于正确选项数量，请删去几个选项。",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "干得好！你的回答全部正确。",
+		feedbackAciertoHotspotUna : "Well done! Your answer is correct.", feedbackFalloHotspot : "抱歉，但你的部分回答错误。",
+		feedbackFalloTodasHotspot : "抱歉，但你的全部回答错误。",
+		feedbackFalloTodasHotspotUna : "Sorry, but your answer is incorrect.",
+		feedbackNoSuficientesHotspot : "选中的回答数量不足，请选择更多选项。",
+		feedbackDemasiadasHotspot : "你选择了太多回答，请删去几个选项。",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Click on the answers for more information.",
+		feedbackCaracteres : "Enter only valid characters.",
+		feedbackLongitudTexto : "The character limit is ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "选择语言",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "完整观看视频。",
+		unSitioMas : "点击一个或多个位置以继续。",
+		unSitioMasMovil : "你可以点击多个位置。",
+		masSitiosA : "点击",
+		masSitiosB : "个缺失的位置以继续。",
+		masSitiosMovilA : "你还可以点击",
+		masSitiosMovilB : "个位置。",
+		finalPagina : "你必须前往本页末尾以继续。",
+		finalPaginaMovil : "你必须前往本页末尾。",
+		visualizaVideo : "Watch the following video about the unit.",
+		videoRecursosRestr : " (You must watch it to the end to unlock the page).",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "开始",
+		btnComprobar : "检查",
+		btnAvanzar : "继续",
+		cuestFinalizado : "你已经完成了本问卷。",
+		cuestAprobado : "你已经通过了本问卷。",
+		cuestSuspenso : "你未能通过了本问卷。",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/EN/help/help.html"),
+		$("#docs").load("../assets/tools/EN/docs/docs.html"),
+		$("#glossary").load("../assets/tools/EN/glossary/glossary.html"),
+	}
+
+	if (idioma :: "CS") {
+		nombreUnidad : nombreUnidadCS,
+		indice : indiceCS,
+		nombrePdf : nombrePdfCS,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Souhrn",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Opravit",
+		btnSolucion : "Řešení",
+		btnReiniciar : "Restartování",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Klikněte zde",
+		zoom : "Klikněte pro zvětšení",
+		recursosayuda : "Klikněte na označené oblasti pro zobrazení další informace",
+		imagenesdinamicasayuda : "Kliknutím na obrázek posloucháte zvuk",
+		tabladinamica1ayuda : "Informace zobrazíte kliknutím na řádek a sloupec"
+		tabladinamica2ayuda : "Kliknutím na každý řádek zobrazíte informace"
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Kliknutím na zvuk zobrazíte další podrobnosti",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Zvuk",
+		tooltipayuda : "Pomoc (nápověda)",
+		tooltipglosario : "Glosář (seznam, slovník)",
+		tooltipdocumentacion : "Dokumentace",
+		tooltipreducirtexto : "Zmenšit text",
+		tooltipaumentartexto : "Zvětšit text",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Zpětná vazba",
+		pinchaTodas : "Odpovězte prosím na všechny otázky.",
+		mensajeSelect : "Vyberte možnost.",
+		mensajeEjercicio : "Chcete-li pokračovat, dokončete sebehodnocení",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Výborně! Všechny vaše odpovědi jsou správné.",
+		feedbackFallo : "Litujeme, ale některé z vašich odpovědí nejsou správné.",
+		feedbackFalloTodas : "Litujeme, ale všechny vaše odpovědi jsou nesprávné.",
+		respuestaCorrecta : "The correct answer is",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Výborně! Všechny vaše odpovědi jsou správné.",
+		feedbackFalloSelect : "Litujeme, ale některé z vašich odpovědí nejsou správné.",
+		feedbackFalloTodasSelect : "Litujeme, ale všechny vaše odpovědi jsou nesprávné.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Výborně! Všechny vaše odpovědi jsou správné.",
+		feedbackFalloTrueFalse : "Litujeme, ale některé z vašich odpovědí nejsou správné.",
+		feedbackFalloTodasTrueFalse : "Litujeme, ale všechny vaše odpovědi jsou nesprávné.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Výborně! Všechny vaše odpovědi jsou správné.",
+		feedbackFalloUnir : "Litujeme, ale některé z vašich odpovědí nejsou správné.",
+		feedbackFalloTodasUnir : "Litujeme, ale všechny vaše odpovědi jsou nesprávné.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Výborně! Všechny vaše odpovědi jsou správné.",
+		feedbackFalloOrdenar : "Litujeme, ale některé z vašich odpovědí nejsou správné.",
+		feedbackFalloTodasOrdenar : "Litujeme, ale všechny vaše odpovědi jsou nesprávné.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Výborně! Vaše odpověď je správná.",
+		feedbackFalloSingleChoice : "Litujeme, ale vaše odpověď je nesprávná.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Výborně! Všechny vaše odpovědi jsou správné.",
+		feedbackFalloMultipleChoice : "Litujeme, ale některé z vašich odpovědí nejsou správné.",
+		feedbackFalloTodasMultipleChoice : "Litujeme, ale všechny vaše odpovědi jsou nesprávné.",
+		feedbackNoSuficientesMultipleChoice : "Omlouváme se, ale počet vybraných možností je menší než počet správných možností, vyberte více možností.",
+		feedbackDemasiadasMultipleChoice : "Omlouváme se, ale počet vybraných možností je větší než počet správných možností, prosím zrušte výběr některých možností.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Výborně! Všechny vaše odpovědi jsou správné.",
+		feedbackAciertoHotspotUna : "Well done! Your answer is correct.", feedbackFalloHotspot : "Litujeme, ale některé z vašich odpovědí nejsou správné.",
+		feedbackFalloTodasHotspot : "Litujeme, ale všechny vaše odpovědi jsou nesprávné.",
+		feedbackFalloTodasHotspotUna : "Sorry, but your answer is incorrect.",
+		feedbackNoSuficientesHotspot : "Počet vybraných odpovědí je nedostatečný. Vyberte prosím ještě některé.",
+		feedbackDemasiadasHotspot : "Vybrali jste příliš mnoho odpovědí, některé prosím zrušte.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Click on the answers for more information.",
+		feedbackCaracteres : "Enter only valid characters.",
+		feedbackLongitudTexto : "The character limit is ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Zvolte jazyk",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Podívejte se na celé video až do konce",
+		unSitioMas : "Pokračujte kliknutím na další místo.",
+		unSitioMasMovil : "Můžete kliknout na více míst.",
+		masSitiosA : "Chcete-li pokračovat, klikněte na ",
+		masSitiosB : " chybějící místa.",
+		masSitiosMovilA : "Můžete kliknout na další ",
+		masSitiosMovilB : " místa.",
+		finalPagina : "Chcete-li pokračovat, musíte přejít na konec této stránky.",
+		finalPaginaMovil : "Musíte přejít na konec stránky.",
+		visualizaVideo : "Podívejte se na následující video.",
+		videoRecursosRestr : " (Chcete-li stránku odemknout, musíte ji sledovat až do konce).",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Start",
+		btnComprobar : "Šek (poukázka)",
+		btnAvanzar : "Pokračovat",
+		cuestFinalizado : "Tento dotazník jste již vyplnili.",
+		cuestAprobado : "Předali jste dotazník.",
+		cuestSuspenso : "Ztratili jste dotazník.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/CS/help/help.html"),
+		$("#docs").load("../assets/tools/CS/docs/docs.html"),
+		$("#glossary").load("../assets/tools/CS/glossary/glossary.html"),
+	}
+	if (idioma :: "NL") {
+		nombreUnidad : nombreUnidadNL,
+		indice : indiceNL,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Samenvatting",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Juist",
+		btnSolucion : "Oplossing",
+		btnReiniciar : "Herstart",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Klik hier",
+		zoom : "Klik om te vergroten",
+		recursosayuda : "Klik op de gemarkeerde gebieden voor meer informatie.",
+		imagenesdinamicasayuda : "Klik op de afbeelding om de audio te beluisteren.",
+		tabladinamica1ayuda : "Klik op een rij en kolom om de informatie weer te geven."
+		tabladinamica2ayuda : "Klik op elke rij om de informatie weer te geven."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Klik op de audio voor meer informatie.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Audio",
+		tooltipayuda : "Hulp",
+		tooltipglosario : "Woordenlijst",
+		tooltipdocumentacion : "Documentatie",
+		tooltipreducirtexto : "Tekst verkleinen",
+		tooltipaumentartexto : "Tekst vergroten",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		pinchaTodas : "Beantwoord alle vragen.",
+		mensajeSelect : "Kies een optie.",
+		mensajeEjercicio : "Vul de zelfbeoordeling in om door te gaan",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Goed gedaan! Al uw antwoorden zijn juist.",
+		feedbackFallo : "Sorry, maar enkele antwoorden waren onjuist.",
+		feedbackFalloTodas : "Sorry, maar al uw antwoorden waren onjuist.",
+		respuestaCorrecta : "Het juiste antwoord is",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Goed gedaan! Al uw antwoorden zijn juist.",
+		feedbackFalloSelect : "Sorry, maar enkele antwoorden waren onjuist.",
+		feedbackFalloTodasSelect : "Sorry, maar al uw antwoorden waren onjuist.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Goed gedaan! Al uw antwoorden zijn juist.",
+		feedbackFalloTrueFalse : "Sorry, maar enkele antwoorden waren onjuist.",
+		feedbackFalloTodasTrueFalse : "Sorry, maar al uw antwoorden waren onjuist.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Goed gedaan! Al uw antwoorden zijn juist.",
+		feedbackFalloUnir : "Sorry, maar enkele antwoorden waren onjuist.",
+		feedbackFalloTodasUnir : "Sorry, maar al uw antwoorden waren onjuist.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Goed gedaan! Al uw antwoorden zijn juist.",
+		feedbackFalloOrdenar : "Sorry, maar enkele antwoorden waren onjuist.",
+		feedbackFalloTodasOrdenar : "Sorry, maar al uw antwoorden waren onjuist.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Goed gedaan! Uw antwoord is juist.",
+		feedbackFalloSingleChoice : "Sorry, maar uw antwoord is onjuist.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Goed gedaan! Al uw antwoorden zijn juist.",
+		feedbackFalloMultipleChoice : "Sorry, maar enkele antwoorden waren onjuist.",
+		feedbackFalloTodasMultipleChoice : "Sorry, maar al uw antwoorden waren onjuist.",
+		feedbackNoSuficientesMultipleChoice : "Sorry, maar het aantal gekozen opties is minder dan het aantal juiste opties. Kies meer opties.",
+		feedbackDemasiadasMultipleChoice : "Sorry, maar het aantal gekozen opties is meer dan het aantal juiste opties. Kies minder opties.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Goed gedaan! Al uw antwoorden zijn juist.",
+		feedbackFalloHotspot : "Sorry, maar enkele antwoorden waren onjuist.",
+		feedbackFalloTodasHotspot : "Sorry, maar al uw antwoorden waren onjuist.",
+		feedbackNoSuficientesHotspot : "Het aantal gekozen antwoorden is onvoldoende, kies er meer.",
+		feedbackDemasiadasHotspot : "U hebt teveel antwoorden gekozen, kies er minder.",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Taal kiezen",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Kijk de video helemaal",
+		unSitioMas : "Klik op nog een locatie om door te gaan.",
+		unSitioMasMovil : "U kunt op nog een locatie klikken.",
+		masSitiosA : "Klik op de ",
+		masSitiosB : "  locaties die ontbreken om door te gaan.",
+		masSitiosMovilA : "Klik op nog ",
+		masSitiosMovilB : "  locaties.",
+		finalPagina : "Ga naar de onderkant van deze pagina om door te gaan.",
+		finalPaginaMovil : "Ga naar de onderkant van de pagina.",
+		visualizaVideo : "Bekijk de volgende video over de eenheid",
+		videoRecursosRestr : " (bekijk deze tot het einde om de pagina te ontgrendelen).",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Begin",
+		btnComprobar : "Juist",
+		btnAvanzar : "Doorgaan met",
+		cuestFinalizado : "U heeft deze vragenlijst al ingevuld.",
+		cuestAprobado : "U bent geslaagd voor de vragenlijst.",
+		cuestSuspenso : "U bent niet geslaagd voor de vragenlijst.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/NL/help/help.html"),
+		$("#docs").load("../assets/tools/NL/docs/docs.html"),
+		$("#glossary").load("../assets/tools/NL/glossary/glossary.html"),
+	}
+	if (idioma :: "CA") {
+		nombreUnidad : nombreUnidadCA,
+		indice : indiceCA,
+		nombrePdf : nombrePdfCA,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Índex",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Corregir",
+		btnSolucion : "Solució",
+		btnReiniciar : "Reiniciar",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Feu clic aquí",
+		zoom : "Feu clic per engrandir",
+		recursosayuda : "Fes clic a les àrees marcades per ampliar informació.",
+		imagenesdinamicasayuda : "Fes clic a la imatge per escoltar l"àudio.",
+		tabladinamica1ayuda : "Prem en una fila i en una columna per desplegar la informació."
+		tabladinamica2ayuda : "Prem a cada fila per desplegar l"informació"
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Fes clic a l"àudio per a més detalls.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Àudio",
+		tooltipayuda : "Ajuda",
+		tooltipglosario : "Glossari",
+		tooltipdocumentacion : "Documentació",
+		tooltipreducirtexto : "Reduir text",
+		tooltipaumentartexto : "Augmentar",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Feedback",
+		pinchaTodas : "Si us plau, contesti a totes les preguntes.",
+		mensajeSelect : "Selecciona una opció.",
+		mensajeEjercicio : "Completa l"autoavaluació per continuar",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "¡Enhorabona! Totes les teves respostes són correctes.",
+		feedbackFallo : "Ho sentim però alguna de les teves respostes són incorrecta.",
+		feedbackFalloTodas : "Ho sentim però totes les teves respostes són incorrectes.",
+		respuestaCorrecta : "La resposta correcta és",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "¡Enhorabona! Totes les teves respostes són correctes.",
+		feedbackFalloSelect : "Ho sentim però alguna de les teves respostes són incorrecta.",
+		feedbackFalloTodasSelect : "Ho sentim però totes les teves respostes són incorrectes.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "¡Enhorabona! Totes les teves respostes són correctes.",
+		feedbackFalloTrueFalse : "Ho sentim però alguna de les teves respostes són incorrecta.",
+		feedbackFalloTodasTrueFalse : "Ho sentim però totes les teves respostes són incorrectes.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "¡Enhorabona! Totes les teves respostes són correctes.",
+		feedbackFalloUnir : "Ho sentim però alguna de les teves respostes són incorrecta.",
+		feedbackFalloTodasUnir : "Ho sentim però totes les teves respostes són incorrectes.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "¡Enhorabona! Totes les teves respostes són correctes.",
+		feedbackFalloOrdenar : "Ho sentim però alguna de les teves respostes són incorrecta.",
+		feedbackFalloTodasOrdenar : "Ho sentim però totes les teves respostes són incorrectes.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "¡Enhorabona! La teva resposta és correcta.",
+		feedbackFalloSingleChoice : "Ho sentim però la teva resposta és incorrecta.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "¡Enhorabona! Totes les teves respostes són correctes.",
+		feedbackFalloMultipleChoice : "Ho sentim però alguna de les teves respostes són incorrecta.",
+		feedbackFalloTodasMultipleChoice : "Ho sentim però totes les teves respostes són incorrectes.",
+		feedbackNoSuficientesMultipleChoice : "Ho sentim, el nombre d"opcions seleccionades és menor que el nombre d"opcions correctes, selecciona alguna opció més.",
+		feedbackDemasiadasMultipleChoice : "Ho sentim, el nombre d"opcions seleccionades és més gran que el nombre d"opcions correctes, treu alguna de les que has seleccionat.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "¡Enhorabona! Totes les teves respostes són correctes.",
+		feedbackAciertoHotspotUna : "¡Enhorabuena! Tu respuesta es correcta.",
+		feedbackFalloHotspot : "Ho sentim però alguna de les teves respostes són incorrecta.",
+		feedbackFalloTodasHotspot : "Ho sentim però totes les teves respostes són incorrectes.",
+		feedbackFalloTodasHotspotUna : "Lo sentimos pero tu respuesta es incorrecta.",
+		feedbackNoSuficientesHotspot : "La quantitat de respostes seleccionades no és suficient, seleccioni alguna més.",
+		feedbackDemasiadasHotspot : "Has seleccionat massa respostes, treu alguna.",
+
+		//FEEDBACK GENERAL EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Fes clic a les respostes per obtenir més informació.",
+		feedbackCaracteres : "Introdueix només caràcters vàlids.",
+		feedbackLongitudTexto : "El límit de caràcters és de ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Seleccionar idioma",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Mira el vídeo fins al final.",
+		unSitioMas : "Prem en un lloc més per poder continuar.",
+		unSitioMasMovil : "Has de prémer un lloc més.",
+		masSitiosA : "Fes clic als ",
+		masSitiosB : " llocs que falten per poder continuar.",
+		masSitiosMovilA : "Has de prémer ",
+		masSitiosMovilB : " llocs més.",
+		finalPagina : "Has d"arribar al final d"aquesta pàgina per poder continuar.",
+		finalPaginaMovil : "Has d"arribar al final de la pàgina.",
+		visualizaVideo : "Visualitza el vídeo següent sobre la unitat.",
+		videoRecursosRestr : " (Has de veure-ho fins al final per desbloquejar la pàgina).", //Con recursos restringidos, se añadirá este mensaje.
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Iniciar",
+		btnComprobar : "Comprovar",
+		btnAvanzar : "Avançar",
+		cuestFinalizado : "Ja has fet aquest qüestionari.",
+		cuestAprobado : "Heu aprovat el qüestionari.",
+		cuestSuspenso : "Has suspès el qüestionari.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/CA/help/help.html"),
+		$("#docs").load("../assets/tools/CA/docs/docs.html"),
+		$("#glossary").load("../assets/tools/CA/glossary/glossary.html"),
+	}
+	if (idioma :: "HI") {
+		nombreUnidad : nombreUnidadHI,
+		indice : indiceHI,
+		nombrePdf : nombrePdfHI,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "सारांश",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "सही",
+		btnSolucion : "समाधान",
+		btnReiniciar : "पुनः आरंभ करें",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "यहाँ क्लिक करें",
+		zoom : "बड़ा करने के लिए क्लिक करें",
+		recursosayuda : "अधिक जानकारी के लिए चिह्नित क्षेत्रों पर क्लिक करें।",
+		imagenesdinamicasayuda : "ऑडियो सुनने के लिए छवि पर क्लिक करें।",
+		tabladinamica1ayuda : "जानकारी प्रदर्शित करने के लिए पंक्ति और कॉलम पर क्लिक करें।"
+		tabladinamica2ayuda : "जानकारी प्रदर्शित करने के लिए प्रत्येक पंक्ति पर क्लिक करें।"
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "अधिक जानकारी के लिए ऑडियो पर क्लिक करें।",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "ऑडियो",
+		tooltipayuda : "सहायता",
+		tooltipglosario : "शब्दावली",
+		tooltipdocumentacion : "प्रलेखन",
+		tooltipreducirtexto : "पाठ छोटा करें",
+		tooltipaumentartexto : "पाठ बड़ा करें",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "फ़ीडबैक",
+		pinchaTodas : "कृपया सभी प्रश्नों के उत्तर दें।",
+		mensajeSelect : "कोई विकल्प चुनें।",
+		mensajeEjercicio : "जारी रखने के लिए स्व-मूल्यांकन पूरा करें",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "बहुत बढ़िया! आपके सभी उत्तर सही हैं।",
+		feedbackFallo : "क्षमा करें लेकिन आपके कुछ उत्तर गलत हैं।",
+		feedbackFalloTodas : "क्षमा करें लेकिन आपके सभी उत्तर गलत हैं।",
+		respuestaCorrecta : "सही उत्तर है",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "बहुत बढ़िया! आपके सभी उत्तर सही हैं।",
+		feedbackFalloSelect : "क्षमा करें लेकिन आपके कुछ उत्तर गलत हैं।",
+		feedbackFalloTodasSelect : "क्षमा करें लेकिन आपके सभी उत्तर गलत हैं।",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "बहुत बढ़िया! आपके सभी उत्तर सही हैं।",
+		feedbackFalloTrueFalse : "क्षमा करें लेकिन आपके कुछ उत्तर गलत हैं।",
+		feedbackFalloTodasTrueFalse : "क्षमा करें लेकिन आपके सभी उत्तर गलत हैं।",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "बहुत बढ़िया! आपके सभी उत्तर सही हैं।",
+		feedbackFalloUnir : "क्षमा करें लेकिन आपके कुछ उत्तर गलत हैं।",
+		feedbackFalloTodasUnir : "क्षमा करें लेकिन आपके सभी उत्तर गलत हैं।",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "बहुत बढ़िया! आपके सभी उत्तर सही हैं।",
+		feedbackFalloOrdenar : "क्षमा करें लेकिन आपके कुछ उत्तर गलत हैं।",
+		feedbackFalloTodasOrdenar : "क्षमा करें लेकिन आपके सभी उत्तर गलत हैं।",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "बहुत बढ़िया! आपका उत्तर सही है।",
+		feedbackFalloSingleChoice : "क्षमा करें लेकिन आपका उत्तर गलत है।",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "बहुत बढ़िया! आपके सभी उत्तर सही हैं।",
+		feedbackFalloMultipleChoice : "क्षमा करें लेकिन आपके कुछ उत्तर गलत हैं।",
+		feedbackFalloTodasMultipleChoice : "क्षमा करें लेकिन आपके सभी उत्तर गलत हैं।",
+		feedbackNoSuficientesMultipleChoice : "क्षमा करें लेकिन चुने गए विकल्पों की संख्या सही विकल्पों की संख्या से कम है, कृपया अधिक विकल्प चुनें।",
+		feedbackDemasiadasMultipleChoice : "क्षमा करें लेकिन चुने गए विकल्पों की संख्या सही विकल्पों की संख्या से अधिक है, कृपया कुछ विकल्पों को अचयनित करें।",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "बहुत बढ़िया! आपके सभी उत्तर सही हैं।",
+		feedbackAciertoHotspotUna : "बहुत बढ़िया! आपका उत्तर सही है।",
+		feedbackFalloHotspot : "क्षमा करें लेकिन आपके कुछ उत्तर गलत हैं।",
+		feedbackFalloTodasHotspot : "क्षमा करें लेकिन आपके सभी उत्तर गलत हैं।",
+		feedbackFalloTodasHotspotUna : "क्षमा करें लेकिन आपका उत्तर गलत है।",
+		feedbackNoSuficientesHotspot : "चुने गए उत्तरों की संख्या अपर्याप्त है, कृपया कुछ और चुनें।",
+		feedbackDemasiadasHotspot : "आपने बहुत अधिक उत्तरों को चुना है, कृपया कुछ को अचयनित करें।",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "अधिक जानकारी के लिए उत्तरों पर क्लिक करें।",
+		feedbackCaracteres : "केवल मान्य वर्ण दर्ज करें।",
+		feedbackLongitudTexto : "वर्ण सीमा ह ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "भाषा चुनें",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "हालाँकि पूरा वीडियो देखें।",
+		unSitioMas : "जारी रखने के लिए एक और स्थान पर क्लिक करें।",
+		unSitioMasMovil : "आप अधिक स्थान पर क्लिक कर सकते हैं।",
+		masSitiosA : "जारी रखने के लिए अनुपलब्ध ",
+		masSitiosB : " स्थानों पर क्लिक करें।",
+		masSitiosMovilA : "आप और ",
+		masSitiosMovilB : " स्थानों पर क्लिक कर सकते हैं।",
+		finalPagina : "जारी रखने के लिए आपको इस पृष्ठ के निचले भाग पर जाना होगा।",
+		finalPaginaMovil : "आपको पृष्ठ के निचले भाग पर जाना होगा।",
+		visualizaVideo : "निम्नलिखित वीडियो देखें।",
+		videoRecursosRestr : " (पृष्ठ खोलने के लिए आपको इसे अंत तक देखना होगा)।",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "शुरू करें",
+		btnComprobar : "जाँचें",
+		btnAvanzar : "जारी रखें",
+		cuestFinalizado : "आप इस प्रश्नावली को पहले ही पूरा कर चुके हैं।",
+		cuestAprobado : "आपने प्रश्नावली पास कर ली है।",
+		cuestSuspenso : "आप प्रश्नावली में असफल रहे हैं।",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/HI/help/help.html"),
+		$("#docs").load("../assets/tools/HI/docs/docs.html"),
+		$("#glossary").load("../assets/tools/HI/glossary/glossary.html"),
+	}
+	if (idioma :: "FI") {
+		nombreUnidad : nombreUnidadFI,
+		indice : indiceFI,
+		nombrePdf : nombrePdfFI,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Yhteenveto",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Oikein",
+		btnSolucion : "Ratkaisu",
+		btnReiniciar : "Aloita uudelleen",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Napsauta tästä",
+		zoom : "Suurenna napsauttamalla",
+		recursosayuda : "Saat lisätietoja napsauttamalla merkittyjä kohtia.",
+		imagenesdinamicasayuda : "Kuuntele ääni napsauttamalla kuvaa.",
+		tabladinamica1ayuda : "Näytä tiedot napsauttamalla riviä ja saraketta."
+		tabladinamica2ayuda : "Näytä tiedot napsauttamalla kutakin riviä."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Saat lisätietoja napsauttamalla ääntä.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Ääni",
+		tooltipayuda : "Ohje",
+		tooltipglosario : "Sanasto",
+		tooltipdocumentacion : "Dokumentointi",
+		tooltipreducirtexto : "Pienennä tekstiä",
+		tooltipaumentartexto : "Suurenna tekstiä",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Palaute",
+		pinchaTodas : "Vastaa kaikkiin kysymyksiin.",
+		mensajeSelect : "Valitse vaihtoehto.",
+		mensajeEjercicio : "Jatka suorittamalla itsearviointi",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Hienoa! Kaikki vastauksesi ovat oikein.",
+		feedbackFallo : "Valitettavasti osa vastauksistasi on väärin.",
+		feedbackFalloTodas : "Valitettavasti kaikki vastauksesi ovat väärin.",
+		respuestaCorrecta : "Oikea vastaus on",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Hienoa! Kaikki vastauksesi ovat oikein.",
+		feedbackFalloSelect : "Valitettavasti osa vastauksistasi on väärin.",
+		feedbackFalloTodasSelect : "Valitettavasti kaikki vastauksesi ovat väärin.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Hienoa! Kaikki vastauksesi ovat oikein.",
+		feedbackFalloTrueFalse : "Valitettavasti osa vastauksistasi on väärin.",
+		feedbackFalloTodasTrueFalse : "Valitettavasti kaikki vastauksesi ovat väärin.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Hienoa! Kaikki vastauksesi ovat oikein.",
+		feedbackFalloUnir : "Valitettavasti osa vastauksistasi on väärin.",
+		feedbackFalloTodasUnir : "Valitettavasti kaikki vastauksesi ovat väärin.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Hienoa! Kaikki vastauksesi ovat oikein.",
+		feedbackFalloOrdenar : "Valitettavasti osa vastauksistasi on väärin.",
+		feedbackFalloTodasOrdenar : "Valitettavasti kaikki vastauksesi ovat väärin.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Hienoa! Vastauksesi on oikein.",
+		feedbackFalloSingleChoice : "Valitettavasti vastauksesi on väärin.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Hienoa! Kaikki vastauksesi ovat oikein.",
+		feedbackFalloMultipleChoice : "Valitettavasti osa vastauksistasi on väärin.",
+		feedbackFalloTodasMultipleChoice : "Valitettavasti kaikki vastauksesi ovat väärin.",
+		feedbackNoSuficientesMultipleChoice : "Valitettavasti valittujen vaihtoehtojen määrä on pienempi kuin oikeiden vaihtoehtojen määrä. Valitse lisää vaihtoehtoja.",
+		feedbackDemasiadasMultipleChoice : "Valitettavasti valittujen vaihtoehtojen määrä on suurempi kuin oikeiden vaihtoehtojen määrä. Valitse vähemmän vaihtoehtoja.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Hienoa! Kaikki vastauksesi ovat oikein.",
+		feedbackAciertoHotspotUna : "Hienoa! Vastauksesi on oikein.",
+		feedbackFalloHotspot : "Valitettavasti osa vastauksistasi on väärin.",
+		feedbackFalloTodasHotspot : "Valitettavasti kaikki vastauksesi ovat väärin.",
+		feedbackFalloTodasHotspotUna : "Valitettavasti vastauksesi on väärin.",
+		feedbackNoSuficientesHotspot : "Et ole valinnut riittävästi vastauksia. Valitse lisää vastauksia.",
+		feedbackDemasiadasHotspot : "Olet valinnut liian monta vastausta. Valitse vähemmän vastauksia.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Napsauta vastauksia saadaksesi lisätietoja.",
+		feedbackCaracteres : "Kirjoita vain kelvollisia merkkejä.",
+		feedbackLongitudTexto : "Merkkirajoitus on ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Valitse kieli",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Katso video kokonaan.",
+		unSitioMas : "Jatka napsauttamalla yhtä tai useampaa sijaintia.",
+		unSitioMasMovil : "Voit napsauttaa lisää sijainteja.",
+		masSitiosA : "Napsauta ",
+		masSitiosB : " puuttuvaa sijaintia, jotta voit jatkaa.",
+		masSitiosMovilA : "Voit napsauttaa vielä ",
+		masSitiosMovilB : "  sijaintia.",
+		finalPagina : "Jatka siirtymällä tämän sivun alareunaan.",
+		finalPaginaMovil : "Sinun on siirryttävä tämän sivun alareunaan.",
+		visualizaVideo : "Katso seuraava video.",
+		videoRecursosRestr : " (Avaa sivu katsomalla se loppuun asti).",
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Aloita",
+		btnComprobar : "Tarkista",
+		btnAvanzar : "Jatka",
+		cuestFinalizado : "Olet jo suorittanut tämän kyselyn.",
+		cuestAprobado : "Olet läpäissyt kyselyn.",
+		cuestSuspenso : "Et ole läpäissyt kyselyä.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/FI/help/help.html"),
+		$("#docs").load("../assets/tools/FI/docs/docs.html"),
+		$("#glossary").load("../assets/tools/FI/glossary/glossary.html"),
+	}
+	if (idioma :: "DA") {
+		nombreUnidad : nombreUnidadDA,
+		indice : indiceDA,
+		nombrePdf : nombrePdfDA,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Resumé",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Korrekt",
+		btnSolucion : "Løsning",
+		btnReiniciar : "Genstart",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Klik her",
+		zoom : "Klik for at forstørre",
+		recursosayuda : "Klik på de markerede områder for at får yderligere oplysninger.",
+		imagenesdinamicasayuda : "Klik på billedet for at lytte til lyden.",
+		tabladinamica1ayuda : "Klik på en række og en kolonne for at få vist oplysningerne."
+		tabladinamica2ayuda : "Klik på hver række for at få vist oplysningerne."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Klik på lyden for flere detaljer.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Lyd",
+		tooltipayuda : "Hjælp",
+		tooltipglosario : "Ordliste",
+		tooltipdocumentacion : "Dokumentation",
+		tooltipreducirtexto : "Formindsk tekst",
+		tooltipaumentartexto : "Forstør tekst",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Feedback",
+		pinchaTodas : "Svar på alle spørgsmålene.",
+		mensajeSelect : "Vælg en valgmulighed.",
+		mensajeEjercicio : "Gennemfør selvevalueringen for at fortsætte",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Godt gået! Alle dine svar er korrekte.",
+		feedbackFallo : "Beklager, nogle af dine svar er forkerte.",
+		feedbackFalloTodas : "Beklager, alle dine svar er forkerte.",
+		respuestaCorrecta : "Det korrekte svar er",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Godt gået! Alle dine svar er korrekte.",
+		feedbackFalloSelect : "Beklager, nogle af dine svar er forkerte.",
+		feedbackFalloTodasSelect : "Beklager, alle dine svar er forkerte.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Godt gået! Alle dine svar er korrekte.",
+		feedbackFalloTrueFalse : "Beklager, nogle af dine svar er forkerte.",
+		feedbackFalloTodasTrueFalse : "Beklager, alle dine svar er forkerte.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Godt gået! Alle dine svar er korrekte.",
+		feedbackFalloUnir : "Beklager, nogle af dine svar er forkerte.",
+		feedbackFalloTodasUnir : "Beklager, alle dine svar er forkerte.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Godt gået! Alle dine svar er korrekte.",
+		feedbackFalloOrdenar : "Beklager, nogle af dine svar er forkerte.",
+		feedbackFalloTodasOrdenar : "Beklager, alle dine svar er forkerte.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Godt gået! Dit svar er korrekt.",
+		feedbackFalloSingleChoice : "Beklager, dit svar er forkert.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Godt gået! Alle dine svar er korrekte.",
+		feedbackFalloMultipleChoice : "Beklager, nogle af dine svar er forkerte.",
+		feedbackFalloTodasMultipleChoice : "Beklager, alle dine svar er forkerte.",
+		feedbackNoSuficientesMultipleChoice : "Beklager, antallet af valgte valgmuligheder er mindre end antallet af korrekte valgmuligheder. Vælg flere valgmuligheder.",
+		feedbackDemasiadasMultipleChoice : "Beklager, antallet af valgte valgmuligheder er større end antallet af korrekte valgmuligheder. Fravælg nogle af valgmulighederne.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Godt gået! Alle dine svar er korrekte.",
+		feedbackAciertoHotspotUna : "Godt gået! Dit svar er korrekt.",
+		feedbackFalloHotspot : "Beklager, nogle af dine svar er forkerte.",
+		feedbackFalloTodasHotspot : "Beklager, alle dine svar er forkerte.",
+		feedbackFalloTodasHotspotUna : "Beklager, dit svar er forkert.",
+		feedbackNoSuficientesHotspot : "Antallet af valgte svar er utilstrækkeligt, vælg nogle flere.",
+		feedbackDemasiadasHotspot : "Du har valgt for mange svar, fravælg nogle af dem.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Klik på svarene for mere information.",
+		feedbackCaracteres : "Indtast kun gyldige tegn.",
+		feedbackLongitudTexto : "Tegngrænsen er ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Vælg sprog",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Se videoen hele vejen igennem.",
+		unSitioMas : "Klik på endnu en placering for at fortsætte.",
+		unSitioMasMovil : "Du kan klikke på flere placeringer.",
+		masSitiosA : "Klik på de ",
+		masSitiosB : " placeringer, der mangler, for at kunne fortsætte.",
+		masSitiosMovilA : "Du kan klikke på yderligere ",
+		masSitiosMovilB : " placeringer.",
+		finalPagina : "Du skal gå til bunden af denne side for at kunne fortsætte.",
+		finalPaginaMovil : "Du skal gå til bunden af siden.",
+		visualizaVideo : "Se den efterfølgende video.",
+		videoRecursosRestr : " (Du skal se den til slutningen for at låse siden op).",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Start",
+		btnComprobar : "Tjek",
+		btnAvanzar : "Fortsæt",
+		cuestFinalizado : "Du har allerede udfyldt dette spørgeskema.",
+		cuestAprobado : "Du har bestået spørgeskemaet.",
+		cuestSuspenso : "Du har ikke bestået spørgeskemaet.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/DA/help/help.html"),
+		$("#docs").load("../assets/tools/DA/docs/docs.html"),
+		$("#glossary").load("../assets/tools/DA/glossary/glossary.html"),
+	}
+	if (idioma :: "NO") {
+		nombreUnidad : nombreUnidadNO,
+		indice : indiceNO,
+		nombrePdf : nombrePdfNO,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Sammendrag",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Riktig",
+		btnSolucion : "Løsning",
+		btnReiniciar : "Start på nytt",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Klikk her",
+		zoom : "Klikk for å forstørre",
+		recursosayuda : "Klikk på de markerte områdene for mer informasjon.",
+		imagenesdinamicasayuda : "Klikk på bildet for å høre på lyden.",
+		tabladinamica1ayuda : "Klikk på en rad eller en kolonne for vise informasjonen."
+		tabladinamica2ayuda : "Klikk på hver rad for vise informasjonen."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Klikk på lyden for mer informasjon.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Lyd",
+		tooltipayuda : "Hjelp",
+		tooltipglosario : "Ordliste",
+		tooltipdocumentacion : "Dokumentasjon",
+		tooltipreducirtexto : "Krymp tekst",
+		tooltipaumentartexto : "Forstørr tekst",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Tilbakemelding",
+		pinchaTodas : "Svar på alle spørsmålene.",
+		mensajeSelect : "Velg et alternativ.",
+		mensajeEjercicio : "Fullfør egenvurderingen for å fortsette",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Bra jobbet! Alle svarene dine er riktige.",
+		feedbackFallo : "Beklager, noen av svarene dine er feil.",
+		feedbackFalloTodas : "Beklager, alle svarene dine er feil.",
+		respuestaCorrecta : "Det riktige svaret er",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Bra jobbet! Alle svarene dine er riktige.",
+		feedbackFalloSelect : "Beklager, noen av svarene dine er feil.",
+		feedbackFalloTodasSelect : "Beklager, alle svarene dine er feil.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Bra jobbet! Alle svarene dine er riktige.",
+		feedbackFalloTrueFalse : "Beklager, noen av svarene dine er feil.",
+		feedbackFalloTodasTrueFalse : "Beklager, alle svarene dine er feil.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Bra jobbet! Alle svarene dine er riktige.",
+		feedbackFalloUnir : "Beklager, noen av svarene dine er feil.",
+		feedbackFalloTodasUnir : "Beklager, alle svarene dine er feil.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Bra jobbet! Alle svarene dine er riktige.",
+		feedbackFalloOrdenar : "Beklager, noen av svarene dine er feil.",
+		feedbackFalloTodasOrdenar : "Beklager, alle svarene dine er feil.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Bra jobbet! Svaret ditt er riktig.",
+		feedbackFalloSingleChoice : "Beklager, svaret ditt er feil.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Bra jobbet! Alle svarene dine er riktige.",
+		feedbackFalloMultipleChoice : "Beklager, noen av svarene dine er feil.",
+		feedbackFalloTodasMultipleChoice : "Beklager, alle svarene dine er feil.",
+		feedbackNoSuficientesMultipleChoice : "Beklager, antall valgte alternativer er mindre enn antall riktige alternativer. Velg flere alternativer.",
+		feedbackDemasiadasMultipleChoice : "Beklager, antall valgte alternativer er større enn antall riktige alternativer. Velg færre alternativer.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Bra jobbet! Alle svarene dine er riktige.",
+		feedbackAciertoHotspotUna : "Bra jobbet! Svaret ditt er riktig.",
+		feedbackFalloHotspot : "Beklager, noen av svarene dine er feil.",
+		feedbackFalloTodasHotspot : "Beklager, alle svarene dine er feil.",
+		feedbackFalloTodasHotspotUna : "Beklager, svaret ditt er feil.",
+		feedbackNoSuficientesHotspot : "Antall valgte svar er utilstrekkelig, velg noen flere.",
+		feedbackDemasiadasHotspot : "Du har valgt for mange svar, fjern markeringen av noen.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Klik på svarene for mere information.",
+		feedbackCaracteres : "Indtast kun gyldige tegn.",
+		feedbackLongitudTexto : "Tegngrænsen er ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Velg språk",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Se hele videoen.",
+		unSitioMas : "Klikk på ett sted til for å fortsette.",
+		unSitioMasMovil : "Du kan klikke på flere steder.",
+		masSitiosA : "Klikk på de ",
+		masSitiosB : " stedene som mangler for å kunne fortsette.",
+		masSitiosMovilA : "Du kan klikke på ",
+		masSitiosMovilB : " flere steder.",
+		finalPagina : "Du må gå til bunnen av denne siden for å kunne fortsette.",
+		finalPaginaMovil : "Du må gå til bunnen av siden.",
+		visualizaVideo : "Se følgende video.",
+		videoRecursosRestr : " (Du må se helt til slutten for å låse opp siden).",
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Start",
+		btnComprobar : "Sjekk",
+		btnAvanzar : "Fortsett",
+		cuestFinalizado : "Du har allerede fullført dette spørreskjemaet.",
+		cuestAprobado : "Du har bestått spørreskjemaet.",
+		cuestSuspenso : "Du har ikke bestått spørreskjemaet.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/NO/help/help.html"),
+		$("#docs").load("../assets/tools/NO/docs/docs.html"),
+		$("#glossary").load("../assets/tools/NO/glossary/glossary.html"),
+	}
+	if (idioma :: "SV") {
+		nombreUnidad : nombreUnidadSV,
+		indice : indiceSV,
+		nombrePdf : nombrePdfSV,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Sammanfattning",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Rätt",
+		btnSolucion : "Lösning",
+		btnReiniciar : "Börja om",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Klicka här",
+		zoom : "Klicka för att förstora",
+		recursosayuda : "Klicka på de markerade områdena för att få mer information.",
+		imagenesdinamicasayuda : "Klicka på bilden för att lyssna på ljudet.",
+		tabladinamica1ayuda : "Klicka på en rad och en kolumn för att visa informationen."
+		tabladinamica2ayuda : "Klicka på varje rad och en kolumn för att visa informationen."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Klicka på ljuduppspelningen för mer information.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Ljud",
+		tooltipayuda : "Hjälp",
+		tooltipglosario : "Ordlista",
+		tooltipdocumentacion : "Dokumentation",
+		tooltipreducirtexto : "Krymp text",
+		tooltipaumentartexto : "Förstora text",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Feedback",
+		pinchaTodas : "Please answer all the questions.",
+		mensajeSelect : "Välj ett alternativ.",
+		mensajeEjercicio : "Gör klar självutvärderingen för att fortsätta",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Bra jobbat! Du har svarat rätt på alla frågor.",
+		feedbackFallo : "Tyvärr, men du har svarat fel på några frågor.",
+		feedbackFalloTodas : "Tyvärr, men du har svarat fel på samtliga frågor.",
+		respuestaCorrecta : "Det rätta svaret är",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Bra jobbat! Du har svarat rätt på alla frågor.",
+		feedbackFalloSelect : "Tyvärr, men du har svarat fel på några frågor.",
+		feedbackFalloTodasSelect : "Tyvärr, men du har svarat fel på samtliga frågor.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Bra jobbat! Du har svarat rätt på alla frågor.",
+		feedbackFalloTrueFalse : "Tyvärr, men du har svarat fel på några frågor.",
+		feedbackFalloTodasTrueFalse : "Tyvärr, men du har svarat fel på samtliga frågor.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Bra jobbat! Du har svarat rätt på alla frågor.",
+		feedbackFalloUnir : "Tyvärr, men du har svarat fel på några frågor.",
+		feedbackFalloTodasUnir : "Tyvärr, men du har svarat fel på samtliga frågor.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Bra jobbat! Du har svarat rätt på alla frågor.",
+		feedbackFalloOrdenar : "Tyvärr, men du har svarat fel på några frågor.",
+		feedbackFalloTodasOrdenar : "Tyvärr, men du har svarat fel på samtliga frågor.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Bra jobbat! Du svarade rätt.",
+		feedbackFalloSingleChoice : "Du varade tyvärr fel.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Bra jobbat! Du har svarat rätt på alla frågor.",
+		feedbackFalloMultipleChoice : "Tyvärr, men du har svarat fel på några frågor.",
+		feedbackFalloTodasMultipleChoice : "Tyvärr, men du har svarat fel på samtliga frågor.",
+		feedbackNoSuficientesMultipleChoice : "Du har tyvärr valt färre alternativ än antalet rätta alternativ. Välj fler svarsalternativ.",
+		feedbackDemasiadasMultipleChoice : "Du har tyvärr valt fler alternativ än antalet rätta alternativ. Välj färre svarsalternativ.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Bra jobbat! Du har svarat rätt på alla frågor.",
+		feedbackAciertoHotspotUna : "Bra jobbat! Du svarade rätt.",
+		feedbackFalloHotspot : "Tyvärr, men du har svarat fel på några frågor.",
+		feedbackFalloTodasHotspot : "Tyvärr, men du har svarat fel på samtliga frågor.",
+		feedbackFalloTodasHotspotUna : "Du varade tyvärr fel.",
+		feedbackNoSuficientesHotspot : "Inte tillräckligt många valda svar, välj ett par till.",
+		feedbackDemasiadasHotspot : "Du har valt för många svar, avmarkera några.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Klicka på svaren för mer information.",
+		feedbackCaracteres : "Ange endast giltiga tecken.",
+		feedbackLongitudTexto : "Teckengränsen är ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Välj språk",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Titta på hela videon.",
+		unSitioMas : "Klicka på ett ställe till för att fortsätta.",
+		unSitioMasMovil : "Du kan klicka på fler ställen.",
+		masSitiosA : "Klicka på de ",
+		masSitiosB : " ställen som saknas för att gå vidare.",
+		masSitiosMovilA : "Du kan klicka på ",
+		masSitiosMovilB : " ställen till.",
+		finalPagina : "Du måste gå längst ner på denna sida för att kunna fortsätta.",
+		finalPaginaMovil : "Du måste gå längst ner på sidan.",
+		visualizaVideo : "Titta på följande video.",
+		videoRecursosRestr : " (Du måste se hela videon för att låsa upp nästa sida).",
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Börja",
+		btnComprobar : "Kontrollera",
+		btnAvanzar : "Fortsätt",
+		cuestFinalizado : "Du har redan fyllt i detta frågeformulär.",
+		cuestAprobado : "Du har blivit godkänd på detta frågeformulär.",
+		cuestSuspenso : "Du har inte blivit godkänd på detta frågeformulär.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/SV/help/help.html"),
+		$("#docs").load("../assets/tools/SV/docs/docs.html"),
+		$("#glossary").load("../assets/tools/SV/glossary/glossary.html"),
+	}
+	if (idioma :: "BG") {
+		nombreUnidad : nombreUnidadBG,
+		indice : indiceBG,
+		nombrePdf : nombrePdfBG,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Резюме",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Правилно",
+		btnSolucion : "Решение",
+		btnReiniciar : "Рестартиране",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Щракнете тук",
+		zoom : "Щракнете, за да увеличите",
+		recursosayuda : "Щракнете върху маркираните райони за повече информация.",
+		imagenesdinamicasayuda : "Щракнете върху изображението, за да изслушате звукозаписа.",
+		tabladinamica1ayuda : "Щракнете върху ред и колона за показване на информацията."
+		tabladinamica2ayuda : "Щракнете върху всеки ред за показване на информацията."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Щракнете върху звукозаписа за повече информация.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Звукозапис",
+		tooltipayuda : "Помощ",
+		tooltipglosario : "Речник",
+		tooltipdocumentacion : "Документация",
+		tooltipreducirtexto : "Свиване на текст",
+		tooltipaumentartexto : "Увеличаване на текст",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Обратна връзка",
+		pinchaTodas : "Моля, отговорете на всички въпроси.",
+		mensajeSelect : "Изберете вариант.",
+		mensajeEjercicio : "Завършете теста за самооценка, за да продължите",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Браво! Всички отговори са правилни.",
+		feedbackFallo : "Съжаляваме, но някои от отговорите са неправилни.",
+		feedbackFalloTodas : "Съжаляваме, но всички отговори са неправилни.",
+		respuestaCorrecta : "Правилният отговор е",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Браво! Всички отговори са правилни.",
+		feedbackFalloSelect : "Съжаляваме, но някои от отговорите са неправилни.",
+		feedbackFalloTodasSelect : "Съжаляваме, но всички отговори са неправилни.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Браво! Всички отговори са правилни.",
+		feedbackFalloTrueFalse : "Съжаляваме, но някои от отговорите са неправилни.",
+		feedbackFalloTodasTrueFalse : "Съжаляваме, но всички отговори са неправилни.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Браво! Всички отговори са правилни.",
+		feedbackFalloUnir : "Съжаляваме, но някои от отговорите са неправилни.",
+		feedbackFalloTodasUnir : "Съжаляваме, но всички отговори са неправилни.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Браво! Всички отговори са правилни.",
+		feedbackFalloOrdenar : "Съжаляваме, но някои от отговорите са неправилни.",
+		feedbackFalloTodasOrdenar : "Съжаляваме, но всички отговори са неправилни.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Браво! Вашият отговор е правилен.",
+		feedbackFalloSingleChoice : "Съжаляваме, но отговорът е неправилен.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Браво! Всички отговори са правилни.",
+		feedbackFalloMultipleChoice : "Съжаляваме, но някои от отговорите са неправилни.",
+		feedbackFalloTodasMultipleChoice : "Съжаляваме, но всички отговори са неправилни.",
+		feedbackNoSuficientesMultipleChoice : "Съжаляваме, но броят на избраните варианти на отговор е по-малък от броя на правилните отговори, моля, изберете още отговори.",
+		feedbackDemasiadasMultipleChoice : "Съжаляваме, но броят на избраните варианти на отговори е по-голям от броя на правилните отговори, моля, премахнете избора от някои от тях.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Браво! Всички отговори са правилни.",
+		feedbackAciertoHotspotUna : "Браво! Вашият отговор е правилен.",
+		feedbackFalloHotspot : "Съжаляваме, но някои от отговорите са неправилни.",
+		feedbackFalloTodasHotspot : "Съжаляваме, но всички отговори са неправилни.",
+		feedbackFalloTodasHotspotUna : "Съжаляваме, но отговорът е неправилен.",
+		feedbackNoSuficientesHotspot : "Броят на избраните отговори е недостатъчен, моля, изберете още отговори.",
+		feedbackDemasiadasHotspot : "Избрали сте прекалено много отговори, моля, премахнете избора от някои от тях.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Кликнете върху отговорите за повече информация.",
+		feedbackCaracteres : "Въведете само валидни знаци.",
+		feedbackLongitudTexto : "Ограничението за знаци е ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Избор на език",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Изгледайте видеоклипа докрай.",
+		unSitioMas : "Щракнете върху още едно място, за да продължите.",
+		unSitioMasMovil : "Можете да щракнете върху още места.",
+		masSitiosA : "Щракнете върху ",
+		masSitiosB : " места, които липсват, за да можете да продължите.",
+		masSitiosMovilA : "Можете да щракнете върху още ",
+		masSitiosMovilB : " места.",
+		finalPagina : "Трябва да стигнете до края на тази страница, за да можете да продължите.",
+		finalPaginaMovil : "Трябва да стигнете до края на страницата.",
+		visualizaVideo : "Гледайте следващия видеоклип.",
+		videoRecursosRestr : " (Трябва да го изгледате докрай, за да отключите страницата.)",
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Начало",
+		btnComprobar : "Проверка",
+		btnAvanzar : "Продължи",
+		cuestFinalizado : "Вече сте попълнили този въпросник.",
+		cuestAprobado : "Преминали сте въпросника успешно.",
+		cuestSuspenso : "Не сте се справили успешно с въпросника.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/BG/help/help.html"),
+		$("#docs").load("../assets/tools/BG/docs/docs.html"),
+		$("#glossary").load("../assets/tools/BG/glossary/glossary.html"),
+	}
+	if (idioma :: "PL") {
+		nombreUnidad : nombreUnidadPL,
+		indice : indicePL,
+		nombrePdf : nombrePdfPL,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Podsumowanie",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Poprawnie",
+		btnSolucion : "Rozwiązanie",
+		btnReiniciar : "Uruchom ponownie stronę",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Kliknij tutaj",
+		zoom : "Kliknij, aby powiększyć",
+		recursosayuda : "Kliknij na zaznaczone obszary, aby uzyskać więcej informacji.",
+		imagenesdinamicasayuda : "Kliknij obrazek, aby posłuchać dźwięku.",
+		tabladinamica1ayuda : "Kliknij wiersz i kolumnę, aby wyświetlić informacje."
+		tabladinamica2ayuda : "Kliknij na każdy wiersz, aby wyświetlić informacje."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Kliknij na dźwięk, aby uzyskać więcej szczegółów.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Audio",
+		tooltipayuda : "Pomoc",
+		tooltipglosario : "Słowniczek",
+		tooltipdocumentacion : "Dokumentacja",
+		tooltipreducirtexto : "Zmniejsz tekst",
+		tooltipaumentartexto : "Powiększ tekst",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Informacje zwrotne",
+		pinchaTodas : "Proszę odpowiedzieć na wszystkie pytania.",
+		mensajeSelect : "Wybierz opcję.",
+		mensajeEjercicio : "Dokonaj samooceny, aby kontynuować",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Dobra robota! Wszystkie Twoje odpowiedzi są poprawne.",
+		feedbackFallo : "Przykro mi, ale niektóre z Twoich odpowiedzi są nieprawidłowe.",
+		feedbackFalloTodas : "Przykro mi, ale wszystkie Twoje odpowiedzi są nieprawidłowe.",
+		respuestaCorrecta : "Prawidłowa odpowiedź to",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Dobra robota! Wszystkie Twoje odpowiedzi są poprawne.",
+		feedbackFalloSelect : "Przykro mi, ale niektóre z Twoich odpowiedzi są nieprawidłowe.",
+		feedbackFalloTodasSelect : "Przykro mi, ale wszystkie Twoje odpowiedzi są nieprawidłowe.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Dobra robota! Wszystkie Twoje odpowiedzi są poprawne.",
+		feedbackFalloTrueFalse : "Przykro mi, ale niektóre z Twoich odpowiedzi są nieprawidłowe.",
+		feedbackFalloTodasTrueFalse : "Przykro mi, ale wszystkie Twoje odpowiedzi są nieprawidłowe.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Dobra robota! Wszystkie Twoje odpowiedzi są poprawne.",
+		feedbackFalloUnir : "Przykro mi, ale niektóre z Twoich odpowiedzi są nieprawidłowe.",
+		feedbackFalloTodasUnir : "Przykro mi, ale wszystkie Twoje odpowiedzi są nieprawidłowe.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Dobra robota! Wszystkie Twoje odpowiedzi są poprawne.",
+		feedbackFalloOrdenar : "Przykro mi, ale niektóre z Twoich odpowiedzi są nieprawidłowe.",
+		feedbackFalloTodasOrdenar : "Przykro mi, ale wszystkie Twoje odpowiedzi są nieprawidłowe.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Dobra robota! Twoja odpowiedź jest poprawna.",
+		feedbackFalloSingleChoice : "Przepraszamy, ale Twoja odpowiedź jest niepoprawna.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Dobra robota! Wszystkie Twoje odpowiedzi są poprawne.",
+		feedbackFalloMultipleChoice : "Przykro mi, ale niektóre z Twoich odpowiedzi są nieprawidłowe.",
+		feedbackFalloTodasMultipleChoice : "Przykro mi, ale wszystkie Twoje odpowiedzi są nieprawidłowe.",
+		feedbackNoSuficientesMultipleChoice : "Przepraszamy, ale liczba wybranych opcji jest mniejsza niż liczba poprawnych opcji, wybierz więcej opcji.",
+		feedbackDemasiadasMultipleChoice : "Przepraszamy, ale liczba wybranych opcji jest większa niż liczba poprawnych opcji, usuń zaznaczenie niektórych opcji.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Dobra robota! Wszystkie Twoje odpowiedzi są poprawne.",
+		feedbackAciertoHotspotUna : "Dobra robota! Twoja odpowiedź jest poprawna.",
+		feedbackFalloHotspot : "Przykro mi, ale niektóre z Twoich odpowiedzi są nieprawidłowe.",
+		feedbackFalloTodasHotspot : "Przykro mi, ale wszystkie Twoje odpowiedzi są nieprawidłowe.",
+		feedbackFalloTodasHotspotUna : "Przepraszamy, ale Twoja odpowiedź jest niepoprawna.",
+		feedbackNoSuficientesHotspot : "Liczba wybranych odpowiedzi jest niewystarczająca, wybierz więcej.",
+		feedbackDemasiadasHotspot : "Wybrałeś zbyt wiele odpowiedzi, usuń niektóre z nich.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Kliknij odpowiedzi, aby uzyskać więcej informacji.",
+		feedbackCaracteres : "Wpisz tylko prawidłowe znaki.",
+		feedbackLongitudTexto : "Limit znaków to ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Wybierz język",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Obejrzyj film do końca.",
+		unSitioMas : "Kliknij w jedno miejsce, aby kontynuować.",
+		unSitioMasMovil : "Możesz kliknąć w więcej miejsc.",
+		masSitiosA : "Kliknij na ",
+		masSitiosB : " brakujące lokalizacje, aby móc kontynuować.",
+		masSitiosMovilA : "Możesz kliknąć ",
+		masSitiosMovilB : " kolejne lokalizacje.",
+		finalPagina : "Aby kontynuować, musisz przejść na sam dół tej strony.",
+		finalPaginaMovil : "Musisz przejść na sam dół strony.",
+		visualizaVideo : "Obejrzyj poniższy film.",
+		videoRecursosRestr : " (Musisz obejrzeć go do końca, aby odblokować stronę).",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Start",
+		btnComprobar : "Sprawdź",
+		btnAvanzar : "Kontynuuj",
+		cuestFinalizado : "Wypełniłeś już ten kwestionariusz.",
+		cuestAprobado : "Przeszedłeś pomyślnie przez ten kwestionariusz.",
+		cuestSuspenso : "Nie udało Ci się wypełnić tego kwestionariusza.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/PL/help/help.html"),
+		$("#docs").load("../assets/tools/PL/docs/docs.html"),
+		$("#glossary").load("../assets/tools/PL/glossary/glossary.html"),
+	}
+	if (idioma :: "RU") {
+		nombreUnidad : nombreUnidadRU,
+		indice : indiceRU,
+		nombrePdf : nombrePdfRU,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Резюме",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Правильно",
+		btnSolucion : "Решение",
+		btnReiniciar : "Перезапустите",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Нажмите здесь",
+		zoom : "Нажмите для увеличения",
+		recursosayuda : "Нажмите на отмеченные области для получения дополнительной информации.",
+		imagenesdinamicasayuda : "Нажмите на изображение, чтобы прослушать аудиозапись.",
+		tabladinamica1ayuda : "Нажмите на строку и столбец, чтобы увидеть информацию."
+		tabladinamica2ayuda : "Нажмите на каждую строку, чтобы отобразить информацию."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Нажмите на аудиозапись для получения более подробной информации.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Аудио",
+		tooltipayuda : "Справка",
+		tooltipglosario : "Глоссарий (Словарь)",
+		tooltipdocumentacion : "Документация",
+		tooltipreducirtexto : "Уменьшить текст",
+		tooltipaumentartexto : "Увеличить текст",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Feedback",
+		pinchaTodas : "Пожалуйста, ответьте на все вопросы.",
+		mensajeSelect : "Выберите один из вариантов.",
+		mensajeEjercicio : "Заполните самооценку, чтобы продолжить",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Отлично! Все ваши ответы правильные.",
+		feedbackFallo : "Извините, но некоторые из ваших ответов неверны.",
+		feedbackFalloTodas : "Извините, но все ваши ответы неверны.",
+		respuestaCorrecta : "Правильный ответ",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Отлично! Все ваши ответы правильные.",
+		feedbackFalloSelect : "Извините, но некоторые из ваших ответов неверны.",
+		feedbackFalloTodasSelect : "Извините, но все ваши ответы неверны.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Отлично! Все ваши ответы правильные.",
+		feedbackFalloTrueFalse : "Извините, но некоторые из ваших ответов неверны.",
+		feedbackFalloTodasTrueFalse : "Извините, но все ваши ответы неверны.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Отлично! Все ваши ответы правильные.",
+		feedbackFalloUnir : "Извините, но некоторые из ваших ответов неверны.",
+		feedbackFalloTodasUnir : "Извините, но все ваши ответы неверны.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Отлично! Все ваши ответы правильные.",
+		feedbackFalloOrdenar : "Извините, но некоторые из ваших ответов неверны.",
+		feedbackFalloTodasOrdenar : "Извините, но все ваши ответы неверны.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Отлично! Ваш ответ правильный.",
+		feedbackFalloSingleChoice : "Извините, но ваш ответ неверен.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Отлично! Все ваши ответы правильные.",
+		feedbackFalloMultipleChoice : "Извините, но некоторые из ваших ответов неверны.",
+		feedbackFalloTodasMultipleChoice : "Извините, но все ваши ответы неверны.",
+		feedbackNoSuficientesMultipleChoice : "Извините, но количество выбранных вариантов меньше количества правильных вариантов, пожалуйста, выберите больше вариантов.",
+		feedbackDemasiadasMultipleChoice : "Извините, но количество выбранных вариантов больше, чем количество правильных вариантов, пожалуйста, отмените выбор некоторых вариантов.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Отлично! Все ваши ответы правильные.",
+		feedbackAciertoHotspotUna : "Отлично! Ваш ответ правильный.",
+		feedbackFalloHotspot : "Извините, но некоторые из ваших ответов неверны.",
+		feedbackFalloTodasHotspot : "Извините, но все ваши ответы неверны.",
+		feedbackFalloTodasHotspotUna : "Извините, но ваш ответ неверен.",
+		feedbackNoSuficientesHotspot : "Количество выбранных ответов недостаточно, пожалуйста, выберите еще несколько.",
+		feedbackDemasiadasHotspot : "Вы выбрали слишком много ответов, пожалуйста, отмените выбор некоторых вариантов.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Нажмите на ответы для получения дополнительной информации.",
+		feedbackCaracteres : "Введите только допустимые символы.",
+		feedbackLongitudTexto : "Ограничение на количество символов ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Выберите язык",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Просмотрите видео до конца.",
+		unSitioMas : "Нажмите на другую область, чтобы продолжить.",
+		unSitioMasMovil : "Вы можете нажать на другие области.",
+		masSitiosA : "Нажмите на ",
+		masSitiosB : " области, которые отсутствуют, чтобы продолжить.",
+		masSitiosMovilA : "Вы можете нажать на ",
+		masSitiosMovilB : " другие области.",
+		finalPagina : "Вы должны дойти до конца этой страницы,  чтобы продолжить.",
+		finalPaginaMovil : "Вы должны дойти до конца страницы.",
+		visualizaVideo : "Посмотрите следующее видео.",
+		videoRecursosRestr : " (Вы должны досмотреть его до конца, чтобы разблокировать страницу).",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Начать",
+		btnComprobar : "Проверьте",
+		btnAvanzar : "Продолжить",
+		cuestFinalizado : "Вы уже заполнили эту анкету.",
+		cuestAprobado : "Вы прошли анкету.",
+		cuestSuspenso : "Вы не прошли анкету.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/RU/help/help.html"),
+		$("#docs").load("../assets/tools/RU/docs/docs.html"),
+		$("#glossary").load("../assets/tools/RU/glossary/glossary.html"),
+	}
+	if (idioma :: "TR") {
+		nombreUnidad : nombreUnidadTR,
+		indice : indiceTR,
+		nombrePdf : nombrePdfTR,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Özet",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Doğru",
+		btnSolucion : "Çözüm",
+		btnReiniciar : "Tekrar başlat",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Buraya Tıkla",
+		zoom : "Büyütmek için tıklayın",
+		recursosayuda : "Daha fazla bilgi için işaretli alanlara tıklayın.",
+		imagenesdinamicasayuda : "Sesi dinlemek için resme tıklayın.",
+		tabladinamica1ayuda : "Bilgileri görüntülemek için bir satıra ve bir sütuna tıklayın."
+		tabladinamica2ayuda : "Bilgileri görüntülemek için her satıra tıklayın."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Daha fazla ayrıntı için sese tıklayın.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Ses",
+		tooltipayuda : "Yardım",
+		tooltipglosario : "Sözlük",
+		tooltipdocumentacion : "belgeler",
+		tooltipreducirtexto : "Metni küçült",
+		tooltipaumentartexto : "Metni büyüt",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Geri bildirim",
+		pinchaTodas : "Lütfen tüm soruları cevaplayın.",
+		mensajeSelect : "Bir seçenek seçin.",
+		mensajeEjercicio : "Devam etmek için öz değerlendirmeyi tamamlayın",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Aferin! Tüm cevaplarınız doğru.",
+		feedbackFallo : "Üzgünüz, ancak bazı cevaplarınız yanlış.",
+		feedbackFalloTodas : "Üzgünüm ama tüm cevaplarınız yanlış.",
+		respuestaCorrecta : "Doğru cevap",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Aferin! Tüm cevaplarınız doğru.",
+		feedbackFalloSelect : "Üzgünüz, ancak bazı cevaplarınız yanlış.",
+		feedbackFalloTodasSelect : "Üzgünüm ama tüm cevaplarınız yanlış.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Aferin! Tüm cevaplarınız doğru.",
+		feedbackFalloTrueFalse : "Üzgünüz, ancak bazı cevaplarınız yanlış.",
+		feedbackFalloTodasTrueFalse : "Üzgünüm ama tüm cevaplarınız yanlış.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Aferin! Tüm cevaplarınız doğru.",
+		feedbackFalloUnir : "Üzgünüz, ancak bazı cevaplarınız yanlış.",
+		feedbackFalloTodasUnir : "Üzgünüm ama tüm cevaplarınız yanlış.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Aferin! Tüm cevaplarınız doğru.",
+		feedbackFalloOrdenar : "Üzgünüz, ancak bazı cevaplarınız yanlış.",
+		feedbackFalloTodasOrdenar : "Üzgünüm ama tüm cevaplarınız yanlış.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Aferin! Tüm cevaplarınız doğru.",
+		feedbackFalloSingleChoice : "Aferin! Tüm cevaplarınız doğru.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Aferin! Tüm cevaplarınız doğru.",
+		feedbackFalloMultipleChoice : "Üzgünüz, ancak bazı cevaplarınız yanlış.",
+		feedbackFalloTodasMultipleChoice : "Üzgünüm ama tüm cevaplarınız yanlış.",
+		feedbackNoSuficientesMultipleChoice : "Üzgünüz, ancak seçilen seçeneklerin sayısı doğru seçeneklerin sayısından az, lütfen daha fazla seçenek seçin.",
+		feedbackDemasiadasMultipleChoice : "Üzgünüz, ancak seçilen seçeneklerin sayısı doğru seçeneklerin sayısından fazla, lütfen bazı seçeneklerin seçimini kaldırın.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Aferin! Tüm cevaplarınız doğru.",
+		feedbackAciertoHotspotUna : "Aferin! Tüm cevaplarınız doğru.",
+		feedbackFalloHotspot : "Üzgünüz, ancak bazı cevaplarınız yanlış.",
+		feedbackFalloTodasHotspot : "Üzgünüm ama tüm cevaplarınız yanlış.",
+		feedbackFalloTodasHotspotUna : "Aferin! Tüm cevaplarınız doğru.",
+		feedbackNoSuficientesHotspot : "Seçilen cevapların sayısı yetersiz, lütfen biraz daha seçin.",
+		feedbackDemasiadasHotspot : "Çok fazla cevap seçtiniz, lütfen bazılarının seçimini kaldırın.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Daha fazla bilgi için cevaplara tıklayın.",
+		feedbackCaracteres : "Yalnızca geçerli karakterleri girin.",
+		feedbackLongitudTexto : "karakter sınırı ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Dil Seçin",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Videoyu baştan sona izleyin.",
+		unSitioMas : "Devam etmek için bir konumu daha tıklayın.",
+		unSitioMasMovil : "Daha fazla konuma tıklayabilirsiniz.",
+		masSitiosA : "Devam edebilmek için eksik olan ",
+		masSitiosB : " yere tıklayın.",
+		masSitiosMovilA : "",//Se deja vacío a propósito
+		masSitiosMovilB : " konuma daha tıklayabilirsiniz.",
+		finalPagina : "Devam edebilmek için bu sayfanın en altına gitmelisiniz.",
+		finalPaginaMovil : "Sayfanın en altına gitmelisiniz.",
+		visualizaVideo : "Aşağıdaki videoyu izleyin.",
+		videoRecursosRestr : " (Sayfanın kilidini açmak için sonuna kadar izlemelisiniz).",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Başlama",
+		btnComprobar : "Kontrol",
+		btnAvanzar : "Devam et",
+		cuestFinalizado : "Bu anketi zaten doldurdunuz.",
+		cuestAprobado : "Anketi geçtiniz.",
+		cuestSuspenso : "Ankette başarısız oldunuz.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/TR/help/help.html"),
+		$("#docs").load("../assets/tools/TR/docs/docs.html"),
+		$("#glossary").load("../assets/tools/TR/glossary/glossary.html"),
+	}
+	if (idioma :: "RO") {
+		nombreUnidad : nombreUnidadRO,
+		indice : indiceRO,
+		nombrePdf : nombrePdfRO,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "Rezumat",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "Corect",
+		btnSolucion : "Soluție",
+		btnReiniciar : "Reporniți",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "Faceți clic aici",
+		zoom : "Faceți clic pentru a mări",
+		recursosayuda : "Faceți clic pe zonele marcate pentru informații suplimentare.",
+		imagenesdinamicasayuda : "Faceți clic pe imagine pentru a asculta sunetul.",
+		tabladinamica1ayuda : "Faceți clic pe un rând sau pe o coloană pentru a afișa informațiile."
+		tabladinamica2ayuda : "Faceți clic pe fiecare rând pentru a afișa informațiile."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "Faceți clic pe materialul audio pentru mai multe detalii.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "Audio",
+		tooltipayuda : "Ajutor",
+		tooltipglosario : "Glosar",
+		tooltipdocumentacion : "Documentație",
+		tooltipreducirtexto : "Micșorează textul",
+		tooltipaumentartexto : "Mărește textul",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "Feedback",
+		pinchaTodas : "Vă rugăm să răspundeți la toate întrebările.",
+		mensajeSelect : "Selectați o opțiune.",
+		mensajeEjercicio : "Completați autoevaluarea pentru a continua",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "Foarte bine! Toate răspunsurile dumneavoastră sunt corecte.",
+		feedbackFallo : "Din păcate, unele dintre răspunsurile dumneavoastră nu sunt corecte.",
+		feedbackFalloTodas : "Din păcate, toate răspunsurile sunt incorecte.",
+		respuestaCorrecta : "Răspunsul corect este",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "Foarte bine! Toate răspunsurile dumneavoastră sunt corecte.",
+		feedbackFalloSelect : "Din păcate, unele dintre răspunsurile dumneavoastră nu sunt corecte.",
+		feedbackFalloTodasSelect : "Din păcate, toate răspunsurile sunt incorecte.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "Foarte bine! Toate răspunsurile dumneavoastră sunt corecte.",
+		feedbackFalloTrueFalse : "Din păcate, unele dintre răspunsurile dumneavoastră nu sunt corecte.",
+		feedbackFalloTodasTrueFalse : "Din păcate, toate răspunsurile sunt incorecte.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "Foarte bine! Toate răspunsurile dumneavoastră sunt corecte.",
+		feedbackFalloUnir : "Din păcate, unele dintre răspunsurile dumneavoastră nu sunt corecte.",
+		feedbackFalloTodasUnir : "Din păcate, toate răspunsurile sunt incorecte.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "Foarte bine! Toate răspunsurile dumneavoastră sunt corecte.",
+		feedbackFalloOrdenar : "Din păcate, unele dintre răspunsurile dumneavoastră nu sunt corecte.",
+		feedbackFalloTodasOrdenar : "Din păcate, toate răspunsurile sunt incorecte.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "Foarte bine! Răspunsul dvs. este corect.",
+		feedbackFalloSingleChoice : "Din păcate, răspunsul dvs. este incorect.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "Foarte bine! Toate răspunsurile dumneavoastră sunt corecte.",
+		feedbackFalloMultipleChoice : "Din păcate, unele dintre răspunsurile dumneavoastră nu sunt corecte.",
+		feedbackFalloTodasMultipleChoice : "Din păcate, toate răspunsurile sunt incorecte.",
+		feedbackNoSuficientesMultipleChoice : "Din păcate, numărul de opțiuni selectate este mai mic decât numărul de opțiuni corecte, vă rugăm să selectați mai multe opțiuni.",
+		feedbackDemasiadasMultipleChoice : "Din păcate, numărul de opțiuni selectate este mai mare decât numărul de opțiuni corecte, vă rugăm să deselectați unele opțiuni.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "Foarte bine! Toate răspunsurile dumneavoastră sunt corecte.",
+		feedbackAciertoHotspotUna : "Foarte bine! Răspunsul dvs. este corect.",
+		feedbackFalloHotspot : "Din păcate, unele dintre răspunsurile dumneavoastră nu sunt corecte.",
+		feedbackFalloTodasHotspot : "Din păcate, toate răspunsurile sunt incorecte.",
+		feedbackFalloTodasHotspotUna : "Din păcate, răspunsul dvs. este incorect.",
+		feedbackNoSuficientesHotspot : "Numărul de răspunsuri selectate este insuficient, vă rugăm să mai selectați unele.",
+		feedbackDemasiadasHotspot : "Ați selectat prea multe răspunsuri, vă rugăm să deselectați unele.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Faceți clic pe răspunsuri pentru mai multe informații.",
+		feedbackCaracteres : "Introduceți numai caractere valide.",
+		feedbackLongitudTexto : "Limita de caractere este ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "Selectați limba",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "Urmăriți videoclipul până la capăt.",
+		unSitioMas : "Faceți clic pe încă o locație pentru a continua.",
+		unSitioMasMovil : "Puteți face clic pe mai multe locații.",
+		masSitiosA : "Faceți clic pe cele ",
+		masSitiosB : " locații neatinse pentru a putea continua.",
+		masSitiosMovilA : "Puteți face clic pe încă ",
+		masSitiosMovilB : " locații.",
+		finalPagina : "Trebuie să parcurgeți pagina până în partea de jos pentru a putea continua.",
+		finalPaginaMovil : "Trebuie să mergeți în partea de jos a paginii.",
+		visualizaVideo : "Urmăriți următorul videoclip.",
+		videoRecursosRestr : " (Trebuie să-l urmăriți până la sfârșit pentru a debloca pagina).",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "Start",
+		btnComprobar : "Verificați",
+		btnAvanzar : "Continuați",
+		cuestFinalizado : "Ați completat deja acest chestionar.",
+		cuestAprobado : "Ați trecut de acest chestionar.",
+		cuestSuspenso : "Nu ați trecut de acest chestionar.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/RO/help/help.html"),
+		$("#docs").load("../assets/tools/RO/docs/docs.html"),
+		$("#glossary").load("../assets/tools/RO/glossary/glossary.html"),
+	}
+	if (idioma :: "AR") {
+		nombreUnidad : nombreUnidadAR,
+		indice : indiceAR,
+		nombrePdf : nombrePdfAR,
+		//TITULO DEL INDICE DEL SUMARIO
+		tituloIndice : "الملخص",
+
+		//BOTONES DE LAS AUTOEVALUACIONES (CORREGIR, SOLUCIÓN Y REINICIAR)
+		btnCorregir : "صحيح",
+		btnSolucion : "الحل",
+		btnReiniciar : "إعادة التشغيل",
+
+		//INSTRUCCIONES PARA QUE EL ALUMNO CLIQUE EN LOS RECURSOS QUE TIENEN DENTRO CONTENIDO
+		clickaqui : "اضغط هنا",
+		zoom : "اضغط هنا للتكبير",
+		recursosayuda : "اضغط على المناطق المحددة للمزيد من المعلومات.",
+		imagenesdinamicasayuda : "اضغط على الصورة للاستماع إلى المقطع الصوتي.",
+		tabladinamica1ayuda : "اضغط على صف وعمود لعرض المعلومات."
+		tabladinamica2ayuda : "اضغط على كل صف لعرض المعلومات."
+		//MENSAJE PARA QUE PULSE EN EL AUDIO PRINCIPAL DE LA DIAPOSITIVA
+		audioprincipalayuda : "اضغط على المقطع الصوتي للمزيد من المعلومات.",
+
+		//TOOLTIPS DE LOS ICONOS DE AUDIO, AYUDA, GLOSARIO, DOCUMENTACIÓN, AMPLIAR TEXTO Y REDUCIR TEXTO
+		tooltipaudio : "المقطع الصوني",
+		tooltipayuda : "المساعدة",
+		tooltipglosario : "القاموس",
+		tooltipdocumentacion : "التوثيق",
+		tooltipreducirtexto : "تصغير النص",
+		tooltipaumentartexto : "تكبير النص",
+
+		//FEEDBACK DE PINCHAR EN LAS OPCIONES PARA CORREGIR AUTOEVALUACIÓN
+		feedback : "التعليق",
+		pinchaTodas : "برجاء الإجابة على جميع الأسئلة",
+		mensajeSelect : "اختر واحدًا من الاختيارات.",
+		mensajeEjercicio : "أكمل اختبار التقييم الشخصي للاستمرار",
+
+		//FEEDBACK GENERAL TODOS LOS EJERCICIOS
+		feedbackAcierto : "أحسنت! جميع إجاباتك صحيحة.",
+		feedbackFallo : "عذرًا، بعض إجاباتك خاطئة.",
+		feedbackFalloTodas : "عذرًا، جميع إجاباتك خاطئة.",
+		respuestaCorrecta : "الإجابة الصحيحة هي",
+
+		//FEEDBACK GENERAL EJERCICIO DE SELECTS
+		feedbackAciertoSelect : "أحسنت! جميع إجاباتك صحيحة.",
+		feedbackFalloSelect : "عذرًا، بعض إجاباتك خاطئة.",
+		feedbackFalloTodasSelect : "عذرًا، جميع إجاباتك خاطئة.",
+
+		//FEEDBACK GENERAL EJERCICIO DE TRUE FALSE
+		feedbackAciertoTrueFalse : "أحسنت! جميع إجاباتك صحيحة.",
+		feedbackFalloTrueFalse : "عذرًا، بعض إجاباتك خاطئة.",
+		feedbackFalloTodasTrueFalse : "عذرًا، جميع إجاباتك خاطئة.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ASOCIAR COLUMNAS Y DE ASOCIAR GRÁFICO
+		feedbackAciertoUnir : "أحسنت! جميع إجاباتك صحيحة.",
+		feedbackFalloUnir : "عذرًا، بعض إجاباتك خاطئة.",
+		feedbackFalloTodasUnir : "عذرًا، جميع إجاباتك خاطئة.",
+
+		//FEEDBACK GENERAL EJERCICIO DE ORDENAR
+		feedbackAciertoOrdenar : "أحسنت! جميع إجاباتك صحيحة.",
+		feedbackFalloOrdenar : "عذرًا، بعض إجاباتك خاطئة.",
+		feedbackFalloTodasOrdenar : "عذرًا، جميع إجاباتك خاطئة.",
+
+		//FEEDBACK GENERAL EJERCICIO DE SINGLE CHOICE
+		feedbackAciertoSingleChoice : "أحسنت! إجابتك صحيحة.",
+		feedbackFalloSingleChoice : "عذرًا، إجابتك خاطئة.",
+
+		//FEEDBACK GENERAL EJERCICIO DE MULTIPLE CHOICE
+		feedbackAciertoMultipleChoice : "أحسنت! جميع إجاباتك صحيحة.",
+		feedbackFalloMultipleChoice : "عذرًا، بعض إجاباتك خاطئة.",
+		feedbackFalloTodasMultipleChoice : "عذرًا، جميع إجاباتك خاطئة.",
+		feedbackNoSuficientesMultipleChoice : "عذرًا، لكن عدد الخيارات المحددة أقل من عدد الخيارات الصحيحة، برجاء تحديد المزيد من الخيارات.",
+		feedbackDemasiadasMultipleChoice : "عذرًا، لكن عدد الخيارات المحددة أكبر من عدد الخيارات الصحيحة، برجاء إلغاء تحديد بعض الخيارات.",
+
+		//FEEDBACK GENERAL EJERCICIO HOTSPOT
+		feedbackAciertoHotspot : "أحسنت! جميع إجاباتك صحيحة.",
+		feedbackAciertoHotspotUna : "أحسنت! إجابتك صحيحة.",
+		feedbackFalloHotspot : "عذرًا، بعض إجاباتك خاطئة.",
+		feedbackFalloTodasHotspot : "عذرًا، جميع إجاباتك خاطئة.",
+		feedbackFalloTodasHotspotUna : "عذرًا، إجابتك خاطئة.",
+		feedbackNoSuficientesHotspot : "عدد الخيارات المحددة غير كافي، برجاء تحديد المزيد.",
+		feedbackDemasiadasHotspot : "لقد حددت عددًا أكبر من اللازم من الإجابات، برجاء إلغاء تحديد بعضها.",
+
+		//FEEDBACK EJERCICIO DE RELLENAR HUECOS
+		feedbackClick : "Click on the answers for more information.",
+		feedbackCaracteres : "Enter only valid characters.",
+		feedbackLongitudTexto : "The character limit is ",
+
+		//MENSAJES CAMBIO DE IDIOMA
+		seleccionarIdioma : "اختر اللغة",
+
+		//MENSAJES DE NAVEGACIÓN RESTRINGIDA
+		videoFinal : "شاهد مقطع الفيديو حتى النهاية.",
+		unSitioMas : "اضغط على أكثر من موقع للاستمرار.",
+		unSitioMasMovil : "يمكنك الضغط على أكثر من موقع.",
+		masSitiosA : "",
+		masSitiosB : " اضغط على الموقعين المفقودين للاستمرار."
+		masSitiosMovilA : "",
+		masSitiosMovilB : " يمكنك الضغط على موقعين آخرين.",
+		finalPagina : "يجب عليك الوصول إلى نهاية هذه الصفحة للاستمرار.",
+		finalPaginaMovil : "يجب عليك الوصول إلى نهاية هذه الصفحة.",
+		visualizaVideo : "شاهد مقطع الفيديو التالي.",
+		videoRecursosRestr : "  (يجب عليك مشاهدة مقطع الفيديو حتى النهاية لفتح الصفحة).",
+
+
+		//CUESTIONARIO PREVIO AL CONOCIMIENTO
+		btnIniciar : "ابدأ",
+		btnComprobar : "افحص",
+		btnAvanzar : "استمر",
+		cuestFinalizado : "لقد أنهيت هذا الاستبيان بالفعل.",
+		cuestAprobado : "لقد اجتزت الاستبيان.",
+		cuestSuspenso : "لقد فشلت في اجتياز الاستبيان.",
+
+		//HERRAMIENTAS
+		$("#ayuda").load("../assets/tools/AR/help/help.html"),
+		$("#docs").load("../assets/tools/AR/docs/docs.html"),
+		$("#glossary").load("../assets/tools/AR/glossary/glossary.html"),
+	}
+}
+
+
+
+}
+}

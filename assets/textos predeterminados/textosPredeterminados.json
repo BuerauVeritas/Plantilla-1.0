@@ -1,0 +1,180 @@
+{
+	"ES": {
+		"verdadero": "verdadero",
+		"falso": "falso",
+		"tituloIndice": "Índice",
+		"botonesAEs": {
+			"btnCorregir": "Corregir",
+			"btnCorregirtf": "Continuar",
+			"btnSolucion": "Solución",
+			"btnReiniciar": "Reiniciar ejercicio"
+		},
+		"instruccionesClick": {
+			"clickaqui": "Haz clic aquí",
+			"zoom": "Haz clic para agrandar",
+			"recursosayuda": "Haz clic en las áreas marcadas para ampliar información.",
+			"imagenesdinamicasayuda": "Haz clic en la imagen para escuchar el audio.",
+			"tabladinamica1ayuda": "Pulsa en una fila y en una columna para desplegar la información.",
+			"tabladinamica2ayuda": "Pulsa en cada fila para desplegar la información.",
+			"audioprincipalayuda": "Haz clic en el audio para más detalles."
+		},
+		"tooltips": {
+			"tooltipaudio": "Audio",
+			"tooltipayuda": "Ayuda",
+			"tooltipglosario": "Glosario",
+			"tooltipdocumentacion": "Documentación",
+			"tooltipreducirtexto": "Reducir texto",
+			"tooltipaumentartexto": "Aumentar texto"
+		},
+		"feedback": {
+			"pinchaTodas": "Por favor, contesta a todas las preguntas.",
+			"mensajeSelect": "Selecciona una opción.",
+			"mensajeEjercicio": "Completa la autoevaluación para continuar"
+		},
+		"feedbackEjercicios": {
+			"notificacionCorrecto": "¡Correcto!",
+			"notificacionIncorrecto": "Incorrecto",
+			"feedbackAcierto": "¡Enhorabuena! Todas tus respuestas son correctas.",
+			"feedbackFallo": "Lo sentimos pero alguna de tus respuestas es incorrecta.",
+			"feedbackFalloTodas": "Lo sentimos pero todas tus respuestas son incorrectas.",
+			"respuestaCorrecta": "La respuesta correcta es",
+			"feedbackNoSuficientesMultipleChoice": "Lo sentimos, el número de opciones seleccionadas es menor que el número de opciones correctas, selecciona alguna opción más.",
+			"feedbackDemasiadasMultipleChoice": "Lo sentimos, el número de opciones seleccionadas es mayor que el número de opciones correctas, quita alguna de las que has seleccionado.",
+			"feedbackNoSuficientesHotspot": "La cantidad de respuestas seleccionadas no es suficiente, selecciona alguna más.",
+			"feedbackDemasiadasHotspot": "Has seleccionado demasiadas respuestas, quita alguna.",
+			"feedbackCaracteres": "Introduce solamente caracteres válidos.",
+			"feedbackLongitudTexto": "El límite de caracteres es de "
+		},
+		"seleccionarIdioma": "Seleccionar idioma",
+		"mensajesNavegacionRestringida": {
+			"videoFinal": "Mira el vídeo hasta el final.",
+			"unSitioMas": "Pulsa en un sitio más para poder continuar.",
+			"unSitioMasMovil": "Debes pulsar en un sitio más.",
+			"masSitiosA": "Pulsa en los ",
+			"masSitiosB": " sitios que faltan para poder continuar.",
+			"masSitiosMovilA": "Debes pulsar en ",
+			"masSitiosMovilB": " sitios más.",
+			"finalPagina": "Debes llegar al final de esta página para poder continuar.",
+			"finalPaginaMovil": "Debes llegar al final de la página.",
+			"visualizaVideo": "Visualiza el siguiente video sobre la unidad.",
+			"videoRecursosRestr": " (Debes verlo hasta el final para desbloquear la página)."
+		},
+		"cuestionario": {
+			"btnIniciar": "Iniciar",
+			"btnComprobar": "Comprobar",
+			"btnAvanzar": "Avanzar",
+			"cuestFinalizado": "Ya has realizado este cuestionario.",
+			"cuestAprobado": "Has aprobado el cuestionario.",
+			"cuestSuspenso": "Has suspendido el cuestionario."
+		},
+		"test":{
+			"resultadofinaltest": "Tu resultado del test es ",
+			"iniciartest": "Iniciar Test",
+			"apruebanota": "Puntuación necesaria para aprobar: ",
+			"tiempoRestante": "Tiempo restante",
+			"TiempoAgotado": "Ha concluido el tiempo para hacer el test.",
+			"intento": "Intento número ",
+			"pregunta": "Pregunta", 
+			"tiempoAgotado": "Tiempo agotado",
+			"cerrarTest": "Cerrar el test"
+		},
+		"ui" : {
+			"archivoDescargas": "Archivos para Descargar",
+			"bibliografia": "Bibliografía",
+			"enlacesInteres": "Enlaces de interés",
+			"progresoUnidad": "Progreso de la unidad",
+			"medallero": "Medallero",
+			"ajustes": "Ajustes",
+			"idioma": "Idioma" 
+			
+		}
+	},
+	"EN": {
+		"verdadero": "true",
+		"falso": "false",
+		"tituloIndice": "Summary",
+		"botonesAEs": {
+			"btnCorregir": "Check",
+			"btnCorregirtf": "Next",
+			"btnSolucion": "Solution",
+			"btnReiniciar": "Reset"
+		},
+		"instruccionesClick": {
+			"clickaqui": "Click here",
+			"zoom": "Click to enlarge",
+			"recursosayuda": "Click on the marked areas for further information.",
+			"imagenesdinamicasayuda": "Click on the image to listen to the audio.",
+			"tabladinamica1ayuda": "Click on a row and a column to display the information.",
+			"tabladinamica2ayuda": "Click on each row to display the information.",
+			"audioprincipalayuda": "Click on the audio for more details."
+		},
+		"tooltips":{
+			"tooltipaudio": "Audio",
+			"tooltipayuda": "Help",
+			"tooltipglosario": "Glossary",
+			"tooltipdocumentacion": "Documentation",
+			"tooltipreducirtexto": "Shrink text",
+			"tooltipaumentartexto": "Enlarge text"
+		},
+		"feedback": {
+			"pinchaTodas": "Please answer all the questions.",
+			"mensajeSelect": "Select an option.",
+			"mensajeEjercicio": "Complete the self-assessment to continue"
+		},
+		"feedbackEjercicios": {
+			"feedbackAcierto": "Well done! All your answers are correct.",
+			"feedbackFallo": "Sorry, but some of your answers are incorrect.",
+			"feedbackFalloTodas": "Sorry, but all of your answers are incorrect.",
+			"respuestaCorrecta": "The correct answer is",
+			"feedbackNoSuficientesMultipleChoice": "Sorry, but the number of selected options is less than the number of correct options, please select more options.",
+			"feedbackDemasiadasMultipleChoice": "Sorry, but the number of selected options is greater than the number of correct options, please deselect some options.",
+			"feedbackNoSuficientesHotspot": "The number of selected answers is insufficient, please selected some more.",
+			"feedbackDemasiadasHotspot": "You have selected too many answers, please deselect some.",
+			"feedbackCaracteres": "Enter only valid characters.",
+			"feedbackLongitudTexto": "The character limit is "
+		},
+		"seleccionarIdioma": "Select language",
+		"mensajesNavegacionRestringida":{
+			"videoFinal": "Watch the video all the way through.",
+			"unSitioMas": "Click on one more location to continue.",
+			"unSitioMasMovil": "You can click on more location.",
+			"masSitiosA": "Click on the ",
+			"masSitiosB": " locations that are missing to be able to continue.",
+			"masSitiosMovilA": "You can click on ",
+			"masSitiosMovilB": " more locations.",
+			"finalPagina": "You must go to the bottom of this page to be able to continue.",
+			"finalPaginaMovil": "You must go to the bottom of the page.",
+			"visualizaVideo": "Watch the following video.",
+			"videoRecursosRestr": " (You must watch it to the end to unlock the page)."
+		},
+		"cuestionario": {
+			"btnIniciar": "Start",
+			"btnComprobar": "Check",
+			"btnAvanzar": "Continue",
+			"cuestFinaizado": "You have already completed this questionnaire.",
+			"cuestAprbado": "You have passed the questionnaire.",
+			"cuestSuspens": "You have failed the questionnaire."
+		},
+		"test":{
+			"resultadofinaltest": "The result of the test is ",
+			"iniciartest": "Start Test",
+			"apruebanota": "Score needed to pass: ",
+			"tiempoRestante": "Remaining time",
+			"TiempoAgotado": "Time for test has been finished.",
+			"intento": "Attempt number ",
+			"pregunta": "Question",
+			"tiempoAgotado": "Timeout",
+			"cerrarTest": "Close test"
+		},
+		"ui" : {
+			"archivoDescargas": "Files for download",
+			"bibliografia": "Bibliography",
+			"enlacesInteres": "Related links",
+			"progresoUnidad": "Unit progress",
+			"medallero": "Medals",
+			"ajustes": "Settings",
+			"idioma": "Language" 
+
+		}
+	}
+}
